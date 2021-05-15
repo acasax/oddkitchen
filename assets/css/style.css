@@ -1,0 +1,17 @@
+/*CSS HOME*/
+
+/*Pozadina home*/
+.homeBg {
+    padding-top: 44px;
+    background-image: url('../img/home/brickbackground.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*Logo pocetna komp*/
+
+.homeLogo {
+    width: 272px !important;
+    height: 60px;
+}
