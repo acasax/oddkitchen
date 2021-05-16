@@ -2,6 +2,7 @@
 
 body {
     min-width: 360px;
+    max-width: 1202px !important;
 }
 
 
@@ -94,6 +95,7 @@ body {
 @media (max-width: 960px) and (min-width: 720px) {
     .hederTxt {
         width: 650px;
+        max-height: 303px !important;
     }
     .heder1Txt {
         height: 90px !important;
@@ -113,34 +115,22 @@ body {
 
 /*Caroseul*/
 
-@media (max-width: 992px) {
-    .carousel-inner .carousel-item>div {
-        display: none;
-    }
-    .carousel-inner .carousel-item>div:first-child {
-        display: block;
+#myCarousel>div>div>div>img {
+    padding-right: 75px !important;
+}
+
+#myCarousel>div>div>div>img:nth-child(5) {
+    padding-right: 0px !important;
+}
+
+@media (max-width: 960px) and (min-width: 720px) {
+    #myCarousel>div>div>div>img:nth-child(3) {
+        padding-right: 0px !important;
     }
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-    justify-content: center;
-}
-
-@media (min-width: 992px) {
-    .carousel-inner .carousel-item-right.active,
-    .carousel-inner .carousel-item-next {
-        transform: translateX(16.6%);
+@media (max-width: 720px) {
+    #myCarousel>div>div>div>img {
+        padding-right: 0px !important;
     }
-    .carousel-inner .carousel-item-left.active,
-    .carousel-inner .carousel-item-prev {
-        transform: translateX(-16.6%);
-    }
-}
-
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left {
-    transform: translateX(0);
 }
