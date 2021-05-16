@@ -35,7 +35,7 @@
 #navbarSupportedContent>ul>li>a {
     color: white;
     font-size: 23px;
-    font-weight: 200;
+    font-weight: 400;
     padding-right: 150px;
 }
 
@@ -54,6 +54,9 @@
     .navbar-brand img {
         height: 60px !important;
     }
+    #navbarSupportedContent>ul>li>a {
+        padding-right: 0px;
+    }
 }
 
 .navbar-dark .navbar-toggler {
@@ -66,6 +69,15 @@
 
 .hederTxt {
     margin-top: 63px;
+}
+
+@media (max-width: 960px) {
+    .hederTxt {
+        width: 650px;
+    }
+    .heder1Txt {
+        height: 90px !important;
+    }
 }
 
 .heder1Txt {
