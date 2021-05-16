@@ -1,17 +1,114 @@
 /*CSS HOME*/
 
+
 /*Pozadina home*/
+
 .homeBg {
     padding-top: 44px;
     background-image: url('../img/home/brickbackground.png');
     background-position: center;
     background-size: cover;
-
 }
 
-/*Logo pocetna komp*/
+
+/*Logo pocetna*/
 
 .homeLogo {
     width: 272px !important;
     height: 60px;
+    display: flex !important;
+}
+
+@media (max-width: 960px) {
+    .homeLogo {
+        display: none !important;
+    }
+}
+
+
+/* Nav bar pocetna */
+
+.homeNavBar {
+    margin-top: 37px;
+}
+
+#navbarSupportedContent>ul>li>a {
+    color: white;
+    font-size: 23px;
+    font-weight: 200;
+    padding-right: 150px;
+}
+
+#navbarSupportedContent>ul>li:nth-child(4)>a {
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    display: none !important;
+}
+
+@media (max-width: 960px) {
+    .navbar-brand {
+        display: inline-block !important;
+    }
+    .navbar-brand img {
+        height: 60px !important;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+}
+
+
+/* Heder text */
+
+.hederTxt {
+    margin-top: 63px;
+}
+
+.heder1Txt {
+    margin-top: 49px;
+    margin-bottom: 45px;
+    height: 105px;
+}
+
+#navbarSupportedContent {
+    justify-content: center !important;
+}
+
+
+/*Caroseul*/
+
+@media (max-width: 992px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(16.6%);
+    }
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-16.6%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
 }
