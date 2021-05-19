@@ -2,9 +2,25 @@
 
 body {
     min-width: 360px;
+}
+
+.homeBody {
     max-width: 1202px !important;
 }
 
+/*Preloader*/
+
+
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('../img/Loading.gif') no-repeat center center;
+}
 
 /*Pozadina home*/
 
@@ -74,7 +90,33 @@ body {
     border-color: white !important;
 }
 
+/*Navbar About*/
 
+.aboutNav {
+    background: #030303;
+    height: 84px;
+    border: #707070 1px solid;
+}
+
+.aboutImg {
+    height: 47px;
+}
+
+/*About BG*/
+
+.aboutBG {
+    /*background-image: url('../img/about/kitchen_background.png');*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutBG img {
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* Heder text */
 
 .hederTxt {

@@ -1,24 +1,13 @@
-/*Carosaul*/
-
-$('#myCarousel').carousel({
-    interval: 5000
-})
 
 
-/*
-$('.carousel .carousel-item').each(function() {
-    var next = $(this).next();
-    if (!next.length) {
-        next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
+$(document).ready(function () {
+    /*--------------------------
+      preloader
+    ---------------------------- */
+    $(window).on('load', function () {
+        var pre_loader = $('#preloader')
+        pre_loader.fadeOut(3000, function () { $(this).remove(); });
+    });
 
-    for (var i = 0; i < 4; i++) {
-        next = next.next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
-        }
-
-        next.children(':first-child').clone().appendTo($(this));
-    }
-});*/
+   
+});
