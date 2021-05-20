@@ -100,23 +100,16 @@ div#preloader {
 
 .aboutImg {
     height: 47px;
+    position: relative;
+    margin-left: 13px;
 }
+
 
 /*About BG*/
 
-.aboutBG {
-    /*background-image: url('../img/about/kitchen_background.png');*/
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-.aboutBG img {
 
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 /* Heder text */
 
 .hederTxt {
