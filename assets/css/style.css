@@ -150,6 +150,10 @@ div#preloader {
 
 /*Caroseul*/
 
+#myCarousel {
+    margin-bottom: 145px !important;
+}
+
 #myCarousel>div>div>div>img {
     padding-right: 75px !important;
 }
@@ -169,3 +173,4 @@ div#preloader {
         padding-right: 0px !important;
     }
 }
+

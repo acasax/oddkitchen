@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
     /*--------------------------
       preloader
@@ -8,6 +6,5 @@ $(document).ready(function () {
         var pre_loader = $('#preloader')
         pre_loader.fadeOut(3000, function () { $(this).remove(); });
     });
-
    
 });
