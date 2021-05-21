@@ -21,7 +21,6 @@ div#preloader {
     overflow: visible;
     background: #fff url('../img/Loading.gif') no-repeat center center;
 }
-
 /*Pozadina home*/
 
 .homeBg {
@@ -107,7 +106,9 @@ div#preloader {
 
 /*About BG*/
 
-
+div.aboutBG > img {
+    width: 100% !important;
+}
 
 
 /* Heder text */
@@ -174,3 +175,15 @@ div#preloader {
     }
 }
 
+/*About heder txt*/
+
+.hederText{
+    height: 82px;
+    margin-bottom: 10px;
+}
+
+.aboutTxt {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+}
