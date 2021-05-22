@@ -8,8 +8,8 @@ body {
     max-width: 1202px !important;
 }
 
-/*Preloader*/
 
+/*Preloader*/
 
 div#preloader {
     position: fixed;
@@ -21,6 +21,8 @@ div#preloader {
     overflow: visible;
     background: #fff url('../img/Loading.gif') no-repeat center center;
 }
+
+
 /*Pozadina home*/
 
 .homeBg {
@@ -89,12 +91,14 @@ div#preloader {
     border-color: white !important;
 }
 
+
 /*Navbar About*/
 
 .aboutNav {
     background: #030303;
     height: 84px;
     border: #707070 1px solid;
+    padding: 18px 1rem !important;
 }
 
 .aboutImg {
@@ -103,10 +107,17 @@ div#preloader {
     margin-left: 13px;
 }
 
+#navbarSupportedContent>ul>li>a {
+    background-color: RGBA(0, 0, 1, 0.24);
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+
 
 /*About BG*/
 
-div.aboutBG > img {
+div.aboutBG>img {
     width: 100% !important;
 }
 
@@ -175,9 +186,10 @@ div.aboutBG > img {
     }
 }
 
+
 /*About heder txt*/
 
-.hederText{
+.hederText {
     height: 82px;
     margin-bottom: 10px;
 }
@@ -186,4 +198,5 @@ div.aboutBG > img {
     text-align: left;
     font-size: 17px;
     font-weight: 400;
+    line-height: 22px;
 }
