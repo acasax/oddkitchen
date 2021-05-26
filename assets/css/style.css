@@ -2,6 +2,7 @@
 
 body {
     min-width: 360px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .homeBody {
@@ -109,11 +110,16 @@ div#preloader {
 
 #navbarSupportedContent>ul>li>a {
     background-color: RGBA(0, 0, 1, 0.24);
-    width: 100px;
+    width: 130px;
     text-align: center;
     float: right;
 }
 
+@media (max-width: 960px) {
+    #navbarSupportedContent > ul > li:nth-child(1) > a {
+        padding-top: 20px;
+    }
+}
 
 /*About BG*/
 
@@ -192,6 +198,7 @@ div.aboutBG>img {
 .hederText {
     height: 82px;
     margin-bottom: 10px;
+    max-width: 245px;
 }
 
 .aboutTxt {
@@ -200,3 +207,40 @@ div.aboutBG>img {
     font-weight: 400;
     line-height: 22px;
 }
+
+@media (min-width: 1200px) {
+  .aboutTxtRow {
+    max-width: 1663px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px)  {
+    .aboutTxtRow {
+      max-width: 700px !important;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    .aboutTxtRow {
+      max-width: 600px !important;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .aboutTxtRow {
+      max-width: 350px !important;
+    }
+
+    .aboutTxt {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .hederText {
+        height: 60px;
+        margin-bottom: 10px;
+        max-width: 245px;
+    }
+  }
