@@ -9,6 +9,28 @@ body {
     max-width: 1202px !important;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+    .homeBody {
+        max-width: 1202px !important;
+        padding-right: 60px !important;
+        padding-left: 60px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .homeBody {
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .homeBody {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+}
+
 
 /*Preloader*/
 
@@ -116,10 +138,21 @@ div#preloader {
 }
 
 @media (max-width: 960px) {
-    #navbarSupportedContent > ul > li:nth-child(1) > a {
+    #navbarSupportedContent>ul>li:nth-child(1)>a {
         padding-top: 20px;
     }
 }
+
+#navbarSupportedContent {
+    margin-left: -225px;
+}
+
+@media (max-width: 1200px) {
+    #navbarSupportedContent {
+        margin-left: 0px;
+    }
+}
+
 
 /*About BG*/
 
@@ -173,21 +206,33 @@ div.aboutBG>img {
 }
 
 #myCarousel>div>div>div>img {
-    padding-right: 75px !important;
+    padding-right: 35px !important;
 }
 
-#myCarousel>div>div>div>img:nth-child(5) {
+#myCarousel>div>div>div>img:nth-child(7) {
     padding-right: 0px !important;
 }
 
-@media (max-width: 960px) and (min-width: 720px) {
-    #myCarousel>div>div>div>img:nth-child(3) {
-        padding-right: 0px !important;
+@media (min-width: 768px) and (max-width: 1200px) {
+    #myCarousel>div>div>div>img {
+        max-height: 105px;
     }
 }
 
-@media (max-width: 720px) {
+@media (min-width: 576px) and (max-width: 767px) {
     #myCarousel>div>div>div>img {
+        max-height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    #myCarousel>div>div>div>img {
+        max-height: 50px;
+    }
+}
+
+@media (max-width: 960px) {
+    #myCarousel>div>div>div>img:nth-child(3) {
         padding-right: 0px !important;
     }
 }
@@ -206,41 +251,49 @@ div.aboutBG>img {
     font-size: 17px;
     font-weight: 400;
     line-height: 22px;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 1200px) {
-  .aboutTxtRow {
-    max-width: 1663px !important;
-  }
+    .aboutTxtRow {
+        max-width: 1663px !important;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1200px)  {
+@media (min-width: 901px) and (max-width: 1200px) {
     .aboutTxtRow {
-      max-width: 700px !important;
+        max-width: 800px !important;
     }
-  }
+    .hederText {
+        height: 65px;
+    }
+}
 
-  @media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 900px) {
     .aboutTxtRow {
-      max-width: 600px !important;
+        max-width: 600px !important;
     }
-  }
+    .hederText {
+        height: 60px;
+    }
+}
 
-  @media (max-width: 576px) {
+@media (max-width: 576px) {
     .aboutTxtRow {
-      max-width: 350px !important;
+        max-width: 350px !important;
     }
-
     .aboutTxt {
         text-align: left;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
     }
-
     .hederText {
-        height: 60px;
-        margin-bottom: 10px;
+        height: 55px;
+        margin-bottom: 17px;
         max-width: 245px;
     }
-  }
+    body>div.container.aboutTxtRow>div>div:nth-child(1) {
+        margin-top: 20px !important;
+    }
+}
