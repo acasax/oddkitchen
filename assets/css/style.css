@@ -82,7 +82,7 @@ div#preloader {
     color: white;
     font-size: 23px;
     font-weight: 400;
-    padding-right: 150px;
+    padding-right: 140px;
 }
 
 #navbarSupportedContent>ul>li:nth-child(4)>a {
@@ -133,9 +133,6 @@ div#preloader {
 
 #navbarSupportedContent>ul>li>a {
     background-color: transparent;
-    width: 130px;
-    text-align: center;
-    float: right;
 }
 
 @media (max-width: 960px) {
@@ -154,6 +151,9 @@ div#preloader {
     }
     #navbarSupportedContent>ul>li>a {
         background-color: black;
+        text-align: center;
+        width: 130px;
+        float: right;
     }
 }
 
