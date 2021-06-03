@@ -145,7 +145,7 @@ div#preloader {
     margin-left: -225px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .aboutNavList {
         margin-left: 0px;
     }
@@ -202,6 +202,7 @@ div.aboutBG>img {
 
 #navbarSupportedContent {
     justify-content: center !important;
+    z-index: 9;
 }
 
 
@@ -373,3 +374,76 @@ div#skuter {
     height: 50%;
     overflow: visible;
 }
+
+/*---- Contact us -----*/
+
+.contactHead {
+    margin-top: 130px;
+    margin-bottom: 35px;
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+.contactHead2 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.contactParagraf {
+    color: white;
+    line-height: 1.7;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.formLabel {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.formInput {
+    width: 100% !important;
+    font-size: 25px;
+    padding: 5px 0;
+    background: transparent;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    color: white;
+}
+
+#contactForm > div {
+    padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+    .contactHead {
+        margin-top: 100px;
+        margin-bottom: 26px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .contactHead {
+        margin-top: 60px;
+       margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+    .contactHead {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactHead {
+        margin-top: 30px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+}
+
