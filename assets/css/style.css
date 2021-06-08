@@ -1,8 +1,13 @@
 /*CSS HOME*/
 
 body {
+    height: 100%;
     min-width: 360px;
     font-family: 'Montserrat', sans-serif !important;
+}
+
+html {
+    height: 100%;
 }
 
 .homeBody {
@@ -446,4 +451,41 @@ div#skuter {
         margin-bottom: 10px;
     }
 }
+
+
+/*--- Futer --*/
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    padding-right: 25px;
+}
+
+body > footer > div > p {
+    color: white;
+    margin: 0 !important;
+    font-size: 19px;
+}
+
+body > footer > div > p > a {
+    color: white;
+}
+
+body > footer > div.d-flex.justify-content-end.align-items-center > p {
+    position: fixed;
+    left: 0;
+    padding-left: 25px;
+}
+
+body > footer > div.d-flex.justify-content-end.align-items-center > p > i {
+    transform: scale(1.6);
+}
+
+
+
 
