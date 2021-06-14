@@ -180,6 +180,17 @@ div.aboutBG>img {
     margin-top: 63px;
 }
 
+.orderBtn {
+    margin-top: 65px;
+    margin-bottom: 81px;
+    background: red;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    padding: 17px 81px;
+    border: 1px solid white;
+}
+
 @media (max-width: 720px) {
     .hederTxt {
         width: 300px !important;
@@ -189,6 +200,19 @@ div.aboutBG>img {
     .heder1Txt {
         margin-top: 25px !important;
         height: 43px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .orderBtn {
+        margin-top: 50px;
+        margin-bottom: 62px;
+        background: red;
+        font-size: 12px;
+        font-weight: bolder;
+        color: white;
+        padding: 13px 62px;
+        border: 1px solid white;
     }
 }
 
@@ -212,17 +236,6 @@ div.aboutBG>img {
 #navbarSupportedContent {
     justify-content: center !important;
     z-index: 9;
-}
-
-.orderBtn {
-    margin-top: 65px;
-    margin-bottom: 81px;
-    background: red;
-    font-size: 16px;
-    font-weight: bolder;
-    color: white;
-    padding: 17px 81px;
-    border: 1px solid white;
 }
 
 
@@ -503,44 +516,6 @@ div#skuter {
 }
 
 
-<<<<<<< HEAD:assets/css/style.css
-/*--- Futer --*/
-
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 50px;
-    background: rgba(0, 0, 0, 0.3);
-    padding-right: 25px;
-}
-
-body > footer > div > p {
-    color: white;
-    margin: 0 !important;
-    font-size: 19px;
-}
-
-body > footer > div > p > a {
-    color: white;
-}
-
-body > footer > div.d-flex.justify-content-end.align-items-center > p {
-    position: fixed;
-    left: 0;
-    padding-left: 25px;
-}
-
-body > footer > div.d-flex.justify-content-end.align-items-center > p > i {
-    transform: scale(1.6);
-}
-
-
-
-
-=======
 /*---- Footer ----*/
 
 footer {
@@ -557,4 +532,12 @@ footer>p {
 footer>p>a {
     color: white;
 }
->>>>>>> 07c78e221d4c79723227516ed60318efcb7881e8:oddkitcherFirstReeles/assets/css/style.css
+
+@media (max-width: 720px) {
+    footer>p {
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
