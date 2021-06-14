@@ -150,9 +150,11 @@ div#preloader {
     }
 }
 
-.aboutNavList {
+
+/*.aboutNavList {
     margin-left: -225px;
 }
+*/
 
 @media (max-width: 1000px) {
     .aboutNavList {
@@ -188,6 +190,15 @@ div.aboutBG>img {
     font-weight: bolder;
     color: white;
     padding: 17px 81px;
+    border: 1px solid white;
+}
+
+.navBtn {
+    background: red;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    padding: 12px 62px;
     border: 1px solid white;
 }
 
@@ -525,7 +536,7 @@ footer {
 footer>p {
     color: white;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 1000;
     margin-bottom: 0;
 }
 
@@ -533,11 +544,20 @@ footer>p>a {
     color: white;
 }
 
+.aboutFooter {
+    color: black;
+    margin-bottom: 66px;
+}
+
+.aboutFooter>a {
+    color: black;
+}
+
 @media (max-width: 720px) {
     footer>p {
         color: white;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 1000;
         margin-bottom: 0;
     }
 }
