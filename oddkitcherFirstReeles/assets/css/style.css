@@ -40,6 +40,19 @@ html {
     }
 }
 
+/*Family body*/
+
+.familyBody {
+    max-width: 1576px; 
+}
+
+.familyBg{
+    background-image: url('../img/family/familybackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -5px;
+}
 
 /*Preloader*/
 
@@ -168,6 +181,11 @@ div#preloader {
     }
 }
 
+/* Family nav*/
+
+.familyNav {
+    border: none;
+}
 
 /*About BG*/
 
@@ -209,7 +227,8 @@ div.aboutBG>img {
     color: white;
     padding: 12px 62px;
     border: 2px solid gainsboro;
-    margin: 15px 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 720px) {
@@ -568,13 +587,14 @@ footer>p>a {
     footer>p {
         color: white;
         font-size: 15px;
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 0;
     }
 
     .aboutFooter {
         font-size: 13px;
-        margin-bottom: 0;
-        font-weight: 600;
+        margin-bottom: 15px;
+        font-weight: 500;
     }
 }
+
