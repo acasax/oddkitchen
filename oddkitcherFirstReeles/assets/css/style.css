@@ -202,6 +202,16 @@ div.aboutBG>img {
     border: 1px solid white;
 }
 
+.aboutBtn {
+    background: red;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    padding: 12px 62px;
+    border: 2px solid gainsboro;
+    margin: 15px 0;
+}
+
 @media (max-width: 720px) {
     .hederTxt {
         width: 300px !important;
@@ -340,7 +350,7 @@ div.aboutBG>img {
     font-size: 17px;
     font-weight: 400;
     line-height: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     padding: 0 40px;
 }
 
@@ -375,7 +385,7 @@ div.aboutBG>img {
     }
     .aboutTxt {
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 20px;
         padding: 0px;
@@ -536,7 +546,7 @@ footer {
 footer>p {
     color: white;
     font-size: 17px;
-    font-weight: 1000;
+    font-weight: 600;
     margin-bottom: 0;
 }
 
@@ -547,17 +557,24 @@ footer>p>a {
 .aboutFooter {
     color: black;
     margin-bottom: 66px;
+    font-size: 17px;
 }
 
 .aboutFooter>a {
     color: black;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     footer>p {
         color: white;
         font-size: 15px;
-        font-weight: 1000;
+        font-weight: 600;
         margin-bottom: 0;
+    }
+
+    .aboutFooter {
+        font-size: 13px;
+        margin-bottom: 0;
+        font-weight: 600;
     }
 }
