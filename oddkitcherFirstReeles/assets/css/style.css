@@ -62,6 +62,10 @@ html {
     width: 220px;
 }
 
+.ml15 {
+    margin-left: 15px;
+}
+
 .ml30 {
     margin-left: 30px;
 }
@@ -109,14 +113,49 @@ html {
     margin-bottom: 66px;
 }
 
-
 @media (max-width: 1200px) {
     .familyBg {
-     
         padding-top: 50px;
     }
+    .itemFamily2 {
+        padding-left: 0px !important;
+        margin-bottom: 60px;
+    }
+    .itemFamily {
+        margin-bottom: 60px;
+        padding-right: 0px !important;
+    }
+    .spoonerFamily {
+        margin-right: 140px;
+    }
+    .spoonerFamilyText {
+        margin-left: 15px;
+    }
+    .udressedsaladsFamilyImg {
+        margin-right: 0;
+    }
+    .udressedsaladsFamilyText {
+        margin-left: 35px;
+    }
+    .wingrFamilyImg {
+        margin-right: 90px;
+    }
+    .bronsonImgFamily {
+        margin-right: 10px;
+    }
+    .bronsonTxtFamily {
+        margin-left: 35px;
+    }
+    .bullseyeImgFamily {
+        margin-right: 85px;
+    }
+    .sandwichImgFamily {
+        margin-right: 35px;
+    }
+    .sandwichTxtFamily {
+        margin-left: 30px;
+    }
 }
-
 
 
 /*Preloader*/
