@@ -40,19 +40,75 @@ html {
     }
 }
 
+
 /*Family body*/
 
-.familyBody {
-    max-width: 1576px; 
-}
-
-.familyBg{
+.familyBg {
     background-image: url('../img/family/familybackground.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: repeat-y;
     margin-top: -5px;
+    padding-top: 100px;
 }
+
+.itemFamily {
+    margin-bottom: 95px;
+    padding-right: 45px !important;
+}
+
+.imgItemFamily {
+    width: 220px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.ml35 {
+    margin-left: 35px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+.ml60 {
+    margin-left: 60px;
+}
+
+.itemFamily2 {
+    padding-left: 45px !important;
+    margin-bottom: 95px;
+}
+
+.txtFamily {
+    text-align: center;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+.imgFamily {
+    margin-right: 70px;
+}
+
+.flusterFamily {
+    width: 157px;
+    height: 178px;
+}
+
+.familyFooter>p {
+    margin-bottom: 66px;
+}
+
 
 /*Preloader*/
 
@@ -181,11 +237,13 @@ div#preloader {
     }
 }
 
+
 /* Family nav*/
 
 .familyNav {
     border: none;
 }
+
 
 /*About BG*/
 
@@ -590,11 +648,9 @@ footer>p>a {
         font-weight: 500;
         margin-bottom: 0;
     }
-
     .aboutFooter {
         font-size: 13px;
         margin-bottom: 15px;
         font-weight: 500;
     }
 }
-
