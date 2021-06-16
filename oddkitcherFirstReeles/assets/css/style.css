@@ -110,6 +110,15 @@ html {
 }
 
 
+@media (max-width: 1200px) {
+    .familyBg {
+     
+        padding-top: 50px;
+    }
+}
+
+
+
 /*Preloader*/
 
 div#preloader {
