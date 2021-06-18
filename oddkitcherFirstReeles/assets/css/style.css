@@ -234,7 +234,7 @@ div#preloader {
 
 .contactBg {
     margin-top: -5px;
-    background-image: url(../img/contact/contactpozadina.jpg);
+    background-image: url(../img/contact/contactpozadinacropped.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -242,7 +242,7 @@ div#preloader {
 
 @media (max-width: 1200px) {
     .contactBg {
-        background-image: url(../img/contact/contactpozadinacropped.jpg);
+        background-image: url(../img/contact/contactpozadina.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -753,6 +753,10 @@ footer>p {
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 0;
+}
+
+.homeFooter {
+    margin-bottom: 44px;
 }
 
 footer>p>a {
