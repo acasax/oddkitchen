@@ -107,6 +107,7 @@ html {
 .flusterFamily {
     width: 157px;
     height: 178px;
+    margin-right: 40px;
 }
 
 .familyFooter>p {
@@ -156,6 +157,9 @@ html {
     .sandwichTxtFamily {
         margin-left: 30px;
     }
+    .flusterFamily {
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -195,6 +199,9 @@ html {
     .ml60 {
         margin-left: 0px;
     }
+    .flusterFamily {
+        margin-right: 0px;
+    }
 }
 
 
@@ -220,6 +227,26 @@ div#preloader {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+/*Kontakt */
+
+.contactBg {
+    margin-top: -5px;
+    background-image: url(../img/contact/contactpozadina.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 1200px) {
+    .contactBg {
+        background-image: url(../img/contact/contactpozadinacropped.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 
@@ -473,6 +500,9 @@ div.aboutBG>img {
     .pizzacult {
         max-height: 82px !important;
     }
+    #myCarousel>div>div>div>img:nth-child(3) {
+        padding-right: 0px !important;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -626,16 +656,17 @@ div#skuter {
 }
 
 .contactHead2 {
-    color: white;
-    font-size: 33px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .contactParagraf {
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    line-height: 1.7;
-    font-size: 20px;
-    text-align: justify;
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .formLabel {
@@ -701,11 +732,13 @@ div#skuter {
 
 .btnSend {
     font-size: 16px;
-    padding: 10px 30px;
+    /* padding: 15px 30px; */
+    padding: 12px 62px;
     background: red;
     color: white;
     font-weight: 800;
-    border: none;
+    border: 1px solid white;
+    margin-top: 30px;
 }
 
 
@@ -718,7 +751,7 @@ footer {
 footer>p {
     color: white;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
