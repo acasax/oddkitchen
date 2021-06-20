@@ -14,6 +14,19 @@ html {
     height: 100%;
 }
 
+@media (min-width: 1200px) {
+    .main {
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .wrapper {
+        display: table-cell;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+
 .homeBody {
     max-width: 1439px !important;
 }
@@ -110,9 +123,13 @@ html {
     margin-right: 40px;
 }
 
+.familyFooter {
+    margin-bottom: 0;
+}
+
 .familyFooter>p {
     margin-top: 15px;
-    margin-bottom: 66px;
+    margin-bottom: 0px;
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -222,11 +239,18 @@ div#preloader {
 /*Pozadina home*/
 
 .homeBg {
-    padding-top: 44px;
+    /*padding-top: 44px;*/
     background-image: url('../img/home/brickbackground.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+@media (max-width: 1200px) {
+    .homeBg {
+        padding-top: 44px;
+    }
 }
 
 
@@ -240,12 +264,21 @@ div#preloader {
     background-attachment: fixed;
 }
 
+.contactItems {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
 @media (max-width: 1200px) {
     .contactBg {
         background-image: url(../img/contact/contactpozadina.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+    }
+    .contactItems {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -401,12 +434,12 @@ div.aboutBG>img {
 }
 
 .aboutBtn {
-    background: red;
+    /*background: red;
     font-size: 15px;
     font-weight: bolder;
     color: white;
     padding: 12px 62px;
-    border: 2px solid gainsboro;
+    border: 2px solid gainsboro;*/
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -741,6 +774,10 @@ div#skuter {
     margin-top: 30px;
 }
 
+.orderBtnNav {
+    margin-right: 13px;
+}
+
 
 /*---- Footer ----*/
 
@@ -756,7 +793,7 @@ footer>p {
 }
 
 .homeFooter {
-    margin-bottom: 44px;
+    margin-bottom: 0px;
 }
 
 footer>p>a {
