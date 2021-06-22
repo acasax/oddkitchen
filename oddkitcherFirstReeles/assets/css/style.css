@@ -27,6 +27,12 @@ html {
     }
 }
 
+.fixedNav {
+    position: fixed !important;
+    top: 0;
+    z-index: 1000;
+}
+
 .homeBody {
     max-width: 1439px !important;
 }
@@ -118,18 +124,24 @@ html {
 }
 
 .flusterFamily {
-    width: 157px;
-    height: 178px;
     margin-right: 40px;
 }
 
 .familyFooter {
-    margin-bottom: 0;
+    margin-bottom: 44px;
 }
 
 .familyFooter>p {
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 44px;
+}
+
+.contactFooter>p {
+    margin-bottom: 44px;
+}
+
+.contactbodyheight {
+    height: 95vh !important;
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -175,7 +187,7 @@ html {
         margin-left: 30px;
     }
     .flusterFamily {
-        margin-right: 0px;
+        margin-right: 60px;
     }
 }
 
@@ -239,7 +251,7 @@ div#preloader {
 /*Pozadina home*/
 
 .homeBg {
-    /*padding-top: 44px;*/
+    padding-top: 44px;
     background-image: url('../img/home/brickbackground.png');
     background-position: center;
     background-size: cover;
@@ -257,7 +269,7 @@ div#preloader {
 /*Kontakt */
 
 .contactBg {
-    margin-top: -5px;
+    margin-top: -20px;
     background-image: url(../img/contact/contactpozadinacropped.jpg);
     background-position: center;
     background-size: cover;
@@ -352,7 +364,7 @@ div#preloader {
 /*Navbar About*/
 
 .aboutNav {
-    background: #030303;
+    background-color: rgba(3, 3, 3, 0.9);
     height: 84px;
     border: #707070 1px solid;
     padding: 18px 1rem !important;
@@ -416,12 +428,17 @@ div.aboutBG>img {
 .orderBtn {
     margin-top: 65px;
     margin-bottom: 81px;
-    background: red;
+    /* background: red;
     font-size: 16px;
     font-weight: bolder;
     color: white;
     padding: 17px 81px;
-    border: 1px solid white;
+    border: 1px solid white;*/
+}
+
+.orderBtn>img {
+    width: 273px;
+    height: 60px;
 }
 
 .navBtn {
@@ -456,16 +473,14 @@ div.aboutBG>img {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .orderBtn {
         margin-top: 50px;
         margin-bottom: 62px;
-        background: red;
-        font-size: 12px;
-        font-weight: bolder;
-        color: white;
-        padding: 13px 62px;
-        border: 1px solid white;
+    }
+    .orderBtn>img {
+        width: 203px;
+        height: 45px;
     }
 }
 
@@ -764,13 +779,13 @@ div#skuter {
 }
 
 .btnSend {
-    font-size: 16px;
-    /* padding: 15px 30px; */
+    /*font-size: 16px;
+  
     padding: 12px 62px;
     background: red;
     color: white;
     font-weight: 800;
-    border: 1px solid white;
+    border: 1px solid white;*/
     margin-top: 30px;
 }
 
@@ -793,7 +808,7 @@ footer>p {
 }
 
 .homeFooter {
-    margin-bottom: 0px;
+    margin-bottom: 44px;
 }
 
 footer>p>a {
@@ -802,7 +817,7 @@ footer>p>a {
 
 .aboutFooter {
     color: black;
-    margin-bottom: 66px;
+    margin-bottom: 44px;
     font-size: 17px;
 }
 
