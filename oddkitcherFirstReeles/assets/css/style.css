@@ -124,7 +124,7 @@ html {
 }
 
 .flusterFamily {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .familyFooter {
@@ -143,6 +143,34 @@ html {
 .contactbodyheight {
     height: 95vh !important;
     padding-top: 153px;
+}
+
+.bullseyeImgFamily {
+    margin-right: 95px;
+}
+
+.udressedsaladsFamilyImg {
+    margin-right: 40px;
+}
+
+.udressedsaladsFamilyText {
+    margin-left: 35px;
+}
+
+.sandwichImgFamily {
+    margin-right: 100px;
+}
+
+.sandwichTxtFamily {
+    margin-left: 0px;
+}
+
+.deliFamilyImg {
+    margin-right: 100px;
+}
+
+.chivasFamilyImg{
+    margin-right: 110px;
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -189,6 +217,12 @@ html {
     }
     .flusterFamily {
         margin-right: 60px;
+    }
+    .deliFamilyImg {
+        margin-right: 0;
+    }
+    .chivasFamilyImg{
+        margin-right: 0;
     }
 }
 
