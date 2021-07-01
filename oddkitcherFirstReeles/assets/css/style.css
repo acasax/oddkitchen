@@ -129,7 +129,7 @@ html {
 .txtFamily {
     text-align: center;
     font-size: 17px;
-    font-weight: lighter;
+    font-weight: 600;
     line-height: 30px;
     color: white;
     margin-bottom: 0 !important;
