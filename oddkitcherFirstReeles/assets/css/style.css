@@ -238,7 +238,10 @@ html {
         margin-right: 0;
     }
     .ml30 {
-        margin-right: 0px;
+        margin-right: 55px;
+    }
+    .verticleImgFamily {
+        margin-bottom: 30px;
     }
 }
 
@@ -278,6 +281,9 @@ html {
     }
     .flusterFamily {
         margin-right: 0px;
+    }
+    .verticleImgFamily {
+        margin-bottom: 30px;
     }
 }
 
