@@ -69,12 +69,28 @@ html {
     background-attachment: fixed;
     background-repeat: repeat-y;
     margin-top: -5px;
-    padding-top: 100px;
+    padding-top: 184px;
+}
+
+.itemFamilyRow {
+    margin: 0 !important;
 }
 
 .itemFamily {
     margin-bottom: 95px;
-    padding-right: 45px !important;
+}
+
+.imgFamilyItems {
+    height: 158px;
+    width: 192px;
+}
+
+.familySpace {
+    margin-right: 25px;
+}
+
+.familyTxtVerticle {
+    margin-left: 75px;
 }
 
 .imgItemFamily {
@@ -86,7 +102,7 @@ html {
 }
 
 .ml30 {
-    margin-left: 30px;
+    margin-right: 33px;
 }
 
 .ml35 {
@@ -169,14 +185,11 @@ html {
     margin-right: 100px;
 }
 
-.chivasFamilyImg{
+.chivasFamilyImg {
     margin-right: 110px;
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
-    .familyBg {
-        padding-top: 50px;
-    }
     .itemFamily2 {
         padding-left: 0px !important;
         margin-bottom: 60px;
@@ -221,15 +234,15 @@ html {
     .deliFamilyImg {
         margin-right: 0;
     }
-    .chivasFamilyImg{
+    .chivasFamilyImg {
         margin-right: 0;
+    }
+    .ml30 {
+        margin-right: 0px;
     }
 }
 
 @media (max-width: 760px) {
-    .familyBg {
-        padding-top: 50px;
-    }
     .itemFamily {
         margin-bottom: 40px;
         padding: 0px !important;
@@ -249,7 +262,7 @@ html {
         margin-left: 0px;
     }
     .ml30 {
-        margin-left: 0px;
+        margin-right: 0px;
     }
     .ml35 {
         margin-left: 0px;
@@ -449,6 +462,12 @@ div#preloader {
 
 /*About BG*/
 
+@media (max-width: 1200px) {
+    .aboutBG {
+        margin-top: 83px !important;
+    }
+}
+
 div.aboutBG>img {
     width: 100% !important;
 }
@@ -558,7 +577,7 @@ div.aboutBG>img {
 }
 
 .skelet {
-    max-height: 82px !important
+    max-height: 93px !important
 }
 
 .pizzacult {
@@ -626,7 +645,7 @@ div.aboutBG>img {
 
 .hederText {
     height: 82px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     max-width: 245px;
 }
 
@@ -634,7 +653,7 @@ div.aboutBG>img {
     text-align: center;
     font-size: 17px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 25px;
     margin-bottom: 25px;
     padding: 0 40px;
 }
@@ -739,7 +758,6 @@ div#skuter {
 }
 
 .contactHead2 {
-    margin-top: 60px;
     margin-bottom: 40px;
 }
 
