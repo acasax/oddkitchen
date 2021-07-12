@@ -128,11 +128,12 @@ html {
 
 .txtFamily {
     text-align: center;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: lighter;
     line-height: 30px;
     color: white;
     margin-bottom: 0 !important;
+    width: 375px;
 }
 
 .imgFamily {
@@ -187,6 +188,10 @@ html {
 
 .chivasFamilyImg {
     margin-right: 110px;
+}
+
+.verticleImgFamily {
+    margin-left: 75px;
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
