@@ -902,3 +902,33 @@ footer>p>a {
         font-weight: 500;
     }
 }
+
+
+/*Location*/
+
+.locationBg {
+    margin-top: -20px;
+    background-image: url(../img/Locations/locations2cropblur.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.locationheight {
+    height: 90vh !important;
+    padding-top: 80px;
+}
+
+.locationParagraf {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 1.5;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.locationVideo {
+    margin-top: 100px;
+}
