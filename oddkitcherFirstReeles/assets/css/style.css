@@ -136,6 +136,10 @@ html {
     width: 375px;
 }
 
+.txtVerticalFamily {
+    margin-left: 30px;
+}
+
 .imgFamily {
     margin-right: 70px;
 }
@@ -191,7 +195,7 @@ html {
 }
 
 .verticleImgFamily {
-    margin-left: 75px;
+    margin-left: 80px;
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -247,12 +251,19 @@ html {
     }
     .verticleImgFamily {
         margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .txtVerticalFamily {
+        margin-left: 0px;
+    }
+    .txtFamily {
+        width: 475px;
     }
 }
 
 @media (max-width: 760px) {
     .itemFamily {
-        margin-bottom: 40px;
+        margin-bottom: 55px;
         padding: 0px !important;
     }
     .itemFamily2 {
@@ -289,6 +300,20 @@ html {
     }
     .verticleImgFamily {
         margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .txtFamily{
+        width: auto;
+    }
+    .txtVerticalFamily{
+        margin-left: 0;
+    }
+    .paddingError {
+        padding: 0;
+    }
+
+    .familyBg{
+        padding-top: 150px;
     }
 }
 
@@ -622,8 +647,12 @@ div.aboutBG>img {
     #myCarousel>div>div>div>img {
         max-height: 80px;
     }
+    #myCarousel>div>div>div>img:nth-child(1) {
+        padding-right: 35px !important;
+    }
     .spooner {
         max-height: 58px !important;
+        padding-right: 35px !important;
     }
     .pizzacult {
         max-height: 63px !important;
@@ -631,11 +660,12 @@ div.aboutBG>img {
 }
 
 @media (max-width: 576px) {
-    #myCarousel>div>div.row.d-flex.d-md-none.d-lg-none.justify-content-center>img {
+    #myCarousel>div>div>div>img {
         max-height: 75px;
+        padding-right: 0px !important;
     }
-    #myCarousel>div>div.row.d-flex.d-md-none.d-lg-none.justify-content-center>img:nth-child(1) {
-        padding-right: 35px;
+    #myCarousel>div>div>div>img:nth-child(1) {
+        padding-right: 35px !important;
     }
     .spooner {
         max-height: 55px !important;
@@ -672,12 +702,14 @@ div.aboutBG>img {
 @media (min-width: 1200px) {
     .aboutTxtRow {
         max-width: 1663px !important;
+        margin-top: -50px;
     }
 }
 
 @media (min-width: 901px) and (max-width: 1200px) {
     .aboutTxtRow {
         max-width: 800px !important;
+        margin-top: -20px;
     }
     .hederText {
         height: 65px;
@@ -694,6 +726,7 @@ div.aboutBG>img {
 @media (min-width: 576px) and (max-width: 900px) {
     .aboutTxtRow {
         max-width: 600px !important;
+        margin-top: -20px;
     }
     .hederText {
         height: 60px;
@@ -710,6 +743,7 @@ div.aboutBG>img {
 @media (max-width: 576px) {
     .aboutTxtRow {
         max-width: 350px !important;
+        margin-top: -25px;
     }
     .aboutTxt {
         text-align: center;
