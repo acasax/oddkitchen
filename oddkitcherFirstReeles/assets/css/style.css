@@ -942,15 +942,15 @@ footer>p>a {
 
 .locationBg {
     margin-top: -20px;
-    background-image: url(../img/Locations/locations2cropblur.jpg);
+    background-image: url(../img/Locations/locations3cropblur.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .locationheight {
-    height: 90vh !important;
-    padding-top: 80px;
+    height: 95vh !important;
+    padding-top: 155px;
 }
 
 .locationParagraf {
@@ -964,5 +964,5 @@ footer>p>a {
 }
 
 .locationVideo {
-    margin-top: 100px;
+    margin-top: 150px;
 }
