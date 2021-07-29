@@ -949,8 +949,9 @@ footer>p>a {
 }
 
 .locationheight {
-    height: 95vh !important;
+    /*height: 95vh !important;*/
     padding-top: 155px;
+    overflow-x: hidden;
 }
 
 .locationParagraf {
