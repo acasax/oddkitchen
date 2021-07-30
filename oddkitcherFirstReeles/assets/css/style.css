@@ -506,6 +506,7 @@ div#preloader {
 
 div.aboutBG>img {
     width: 100% !important;
+    margin-top: -84px;
 }
 
 
@@ -949,8 +950,8 @@ footer>p>a {
 }
 
 .locationheight {
-    /*height: 95vh !important;*/
-    padding-top: 155px;
+ 
+    padding-top: 240px;
     overflow-x: hidden;
 }
 
