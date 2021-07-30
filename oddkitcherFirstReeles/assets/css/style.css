@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1365px) {
     html {
         background-color: black;
     }
@@ -39,6 +39,16 @@ body {
 
 .homeBody {
     max-width: 1439px !important;
+}
+
+@media (min-width: 960px) and (max-width: 1367px) {
+    .homeBody {
+        max-width: 1022px !important;
+    }
+
+    .homeBg {
+        padding-top: 31px !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -382,6 +392,13 @@ div#preloader {
     }
 }
 
+.error {
+    margin-top: 2px;
+    font-size: 17px;
+    color: red;
+    font-weight: 600;
+}
+
 
 /*Logo pocetna*/
 
@@ -397,6 +414,30 @@ div#preloader {
     }
 }
 
+@media (min-width: 960px) and (max-width: 1367px) {
+    .homeLogo {
+        width: 193.5px !important;
+        height: 43px;
+    }
+
+    .homeNavBar {
+        margin-top: 26px !important;
+    }
+
+    #navbarSupportedContent>ul>li>a {
+        font-size: 16px !important;
+    }
+
+    .orderBtn {
+        margin-top: 28px !important;
+        margin-bottom: 46px !important;
+    }
+    
+    .orderBtn>img {
+        width: 193.5px !important;
+        height: 43px !important;
+    }
+}
 
 /* Nav bar pocetna */
 
@@ -690,6 +731,33 @@ div.aboutBG>img {
     }
 }
 
+@media (min-width: 960px) and (max-width: 1367px) {
+    #myCarousel {
+        margin-bottom: 50px !important;
+    }
+    
+    #myCarousel>div>div>div>img {
+        padding-right: 58px !important;
+        max-height: 74px;
+    }
+
+    .spooner {
+        max-height: 54px !important;
+    }
+    
+    .skelet {
+        max-height: 66px !important
+    }
+    
+    .pizzacult {
+        max-height: 58px !important;
+    }
+    
+    .sandwich {
+        max-height: 66px !important;
+    }
+}
+
 
 /*About heder txt*/
 
@@ -896,6 +964,14 @@ div#skuter {
     margin-top: 30px;
 }
 
+.btnSend button {
+    background: url(../img/contact/send.png);
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-repeat: no-repeat;
+}
+
 .orderBtnNav {
     margin-right: 13px;
 }
@@ -946,7 +1022,37 @@ footer>p>a {
     }
 }
 
-
+@media (min-width: 960px) and (max-width: 1367px) {
+    footer {
+        margin-bottom: 47px;
+    }
+    
+    footer>p {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    
+    .homeFooter {
+        margin-bottom: 31px;
+    }
+    
+    footer>p>a {
+        color: white;
+    }
+    
+    .aboutFooter {
+        color: black;
+        margin-bottom: 31px;
+        font-size: 12px;
+    }
+    
+    .aboutFooter>a {
+        color: black;
+    }
+    
+}
 /*Location*/
 
 .locationBg {
