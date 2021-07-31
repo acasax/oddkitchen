@@ -212,6 +212,32 @@ body {
     margin-left: 80px;
 }
 
+@media (min-width: 1200px) and (max-width: 1366px) {
+
+    .verticleImgFamily {
+        margin-left: 50px !important;
+    }
+
+    .itemFamily {
+        margin-bottom: 67px !important;
+    }
+    
+    .imgFamilyItems {
+        height: 112px !important;
+        width: 137px !important;
+    }
+
+    .txtFamily {
+        font-size: 16px;
+        line-height: 21px;
+        width: 267px;
+    }
+    
+    .familyBg {
+        padding-top: 131px;
+    }
+}
+
 @media (min-width: 760px) and (max-width: 1200px) {
     .itemFamily2 {
         padding-left: 0px !important;
@@ -1094,6 +1120,7 @@ footer>p>a {
     }
     
 }
+
 /*Location*/
 
 .locationBg {
@@ -1122,4 +1149,22 @@ footer>p>a {
 
 .locationVideo {
     margin-top: 150px;
+}
+
+@media (min-width: 1200px) and (max-width: 1367px) {
+ 
+    .locationheight {
+        padding-top: 171px;
+    }
+    
+    .locationParagraf {
+        line-height: 1;
+        font-size: 28px;
+        margin-right: 32px;
+    }
+    
+    .locationVideo {
+        margin-top: 107px;
+    }
+    
 }
