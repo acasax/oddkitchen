@@ -50,6 +50,9 @@ body {
     .homeBg {
         padding-top: 37px !important;
     }
+    .gifHome {
+        height: 350px !important;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1367px) {
@@ -58,6 +61,9 @@ body {
     }
     .homeBg {
         padding-top: 31px !important;
+    }
+    .gifHome {
+        height: 310px !important;
     }
 }
 
