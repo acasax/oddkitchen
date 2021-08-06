@@ -1333,6 +1333,30 @@ footer>p>a {
     margin-top: 150px;
 }
 
+@media (min-width: 1368px) and (max-width: 1600px) {
+    .locationVideo {
+        margin-top: 125px;
+    }
+    .locationheight {
+        padding-top: 200px;
+        height: 93vh;
+    }
+    #skuter {
+        height: 250px;
+    }
+    .locationParagraf {
+        line-height: 1.25;
+        font-size: 33px;
+        margin-right: 37px;
+    }
+    .locationParagrafimg {
+        margin-bottom: 37px;
+    }
+    .map {
+        height: 236px;
+    }
+}
+
 @media (min-width: 900px) and (max-width: 1200px) {
     .locationheight {
         padding-top: 400px;
@@ -1342,7 +1366,7 @@ footer>p>a {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1367px) {
+@media (min-width: 1200px) and (max-width: 1366px) {
     .locationheight {
         padding-top: 140px;
         height: 92vh;
