@@ -1303,14 +1303,15 @@ footer>p>a {
 /*Location*/
 
 .locationBg {
-    background-image: url(../img/Locations/locationsbackgroundedit6.jpg);
-    background-position: center;
+    /* background-image: url(../img/Locations/locationsbackgroundedit6.jpg); */
+    background: url(../img/Locations/locationsbackgroundedit6.jpg) no-repeat bottom left;
+    /* background-position: center; */
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .locationheight {
-    height: 93vh;
+    height: 95vh;
     padding-top: 240px;
     overflow-x: hidden;
 }
@@ -1333,12 +1334,6 @@ footer>p>a {
     margin-top: 150px;
 }
 
-#skuter {
-    position: fixed;
-    bottom: 70px;
-    left: 0;
-}
-
 @media (min-width: 1368px) and (max-width: 1600px) {
     .locationVideo {
         margin-top: 125px;
@@ -1356,7 +1351,6 @@ footer>p>a {
         margin-right: 37px;
     }
     .locationParagrafimg {
-        height: 110px;
         margin-bottom: 37px;
     }
     .map {
@@ -1383,22 +1377,17 @@ footer>p>a {
         font-size: 28px;
         margin-right: 32px;
     }
-    
-    .locationParagrafimg {
-        height: 94px;
-        margin-bottom: 32px;
-    }
-    
     .locationVideo {
-        margin-top: 107px;
+        margin-top: 60px;
     }
-    
     #skuter {
-        bottom: 55px;
+        height: 178px;
     }
-
+    .locationParagrafimg {
+        margin-bottom: 37px;
+    }
     .map {
-        height: 201px;
+        height: 236px;
     }
 }
 
