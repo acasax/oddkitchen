@@ -8,18 +8,13 @@ $(document).ready(function() {
     });
 
     /*skuter */
+   
 
-    document.getElementById('skuter').addEventListener('ended', myHandler, false);
-
-    setTimeout(() => { console.log("World!"); }, 10000);
-
-    function myHandler(e) {
-        console.log('ended');
-
+ 
         setTimeout(function() {
+            document.getElementById('skuter').playbackRate = 2.0;
             document.getElementById('skuter').play();
-        }, 3000);
-    }
+        }, 5000);
 
 
 });

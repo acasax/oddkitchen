@@ -1310,7 +1310,7 @@ footer>p>a {
 }
 
 .locationheight {
-    height: 95vh;
+    height: 92vh;
     padding-top: 240px;
     overflow-x: hidden;
 }
@@ -1345,7 +1345,7 @@ footer>p>a {
     }
     .locationheight {
         padding-top: 200px;
-        height: 93vh;
+        height: 91vh;
     }
     #skuter {
         height: 250px;
@@ -1375,7 +1375,7 @@ footer>p>a {
 @media (min-width: 1200px) and (max-width: 1366px) {
     .locationheight {
         padding-top: 140px;
-        height: 92vh;
+        height: 91vh;
     }
     .locationParagraf {
         line-height: 1;
