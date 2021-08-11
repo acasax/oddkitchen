@@ -111,6 +111,10 @@ body {
   padding-top: 184px;
 }
 
+.famliyHeder{
+    margin-bottom: 80px;
+}
+
 .itemFamilyRow {
   margin: 0 !important;
 }
@@ -230,6 +234,12 @@ body {
   .familyBg {
     padding-top: 153px;
   }
+
+  
+.famliyHeder{
+    margin-bottom: 60px;
+}
+
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
@@ -251,6 +261,7 @@ body {
   .familyBg {
     padding-top: 131px;
   }
+
 }
 
 .bullseyeImgFamily {
@@ -322,6 +333,10 @@ body {
   .familyBg {
     padding-top: 131px;
   }
+  
+.famliyHeder{
+    margin-bottom: 48px;
+}
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -388,6 +403,10 @@ body {
   .familyBg {
     padding-top: 130px;
   }
+  
+.famliyHeder{
+    margin-bottom: 30px;
+}
 }
 
 @media (max-width: 760px) {
@@ -443,6 +462,11 @@ body {
   .familyBg {
     padding-top: 150px;
   }
+  
+.famliyHeder{
+    margin-bottom: 25px;
+    width: 340px;
+}
 }
 
 /*Preloader*/
