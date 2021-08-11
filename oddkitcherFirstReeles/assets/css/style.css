@@ -1506,3 +1506,18 @@ footer > p > a {
     height: 200px !important;
   }
 }
+
+
+.turnDeviceNotification {
+    position:fixed;
+    top: 0;
+    left:0;
+    height:100%;
+    width:100%;
+    display: none;
+  }
+
+  .turnDeviceNotification {
+    background-image:url('../img/lock.png');
+    background-size:cover;
+  }
