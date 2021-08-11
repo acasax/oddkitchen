@@ -756,12 +756,8 @@ div.aboutBG > img {
 }
 
 .aboutBtn {
-  /*background: red;
-    font-size: 15px;
-    font-weight: bolder;
-    color: white;
-    padding: 12px 62px;
-    border: 2px solid gainsboro;*/
+  position: fixed;
+  bottom: 75px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -1130,6 +1126,10 @@ div#skuter {
   #contactForm {
     margin-bottom: 50px;
   }
+
+  .contactHead2 {
+    margin-bottom: 0px;
+  }
 }
 
 @media (min-width: 901px) and (max-width: 1200px) {
@@ -1143,6 +1143,16 @@ div#skuter {
   .contactbodyheight {
     height: 89vh !important;
   }
+  .contactFooter > p {
+    margin-bottom: 0; 
+}
+footer{
+   margin-bottom: 0;
+}
+.contactFooter p{
+   position: fixed;
+   bottom: 35px;
+}
 }
 
 @media (min-width: 576px) and (max-width: 900px) {
@@ -1153,6 +1163,19 @@ div#skuter {
   #contactForm {
     margin-bottom: 35px;
   }
+  .contactHead2 {
+    margin-bottom: 0px;
+  }
+  .contactFooter > p {
+    margin-bottom: 0; 
+}
+footer{
+   margin-bottom: 0;
+}
+.contactFooter p{
+   position: fixed;
+   bottom: 35px;
+}
 }
 
 @media (max-width: 576px) {
@@ -1164,6 +1187,19 @@ div#skuter {
   #contactForm {
     margin-bottom: 15px;
   }
+  .contactHead2 {
+    margin-bottom: 0px;
+  }
+  .contactFooter > p {
+     margin-bottom: 0; 
+}
+footer{
+    margin-bottom: 0;
+}
+.contactFooter p{
+    position: fixed;
+    bottom: 20px;
+}
 }
 
 @media (min-width: 1200px) and (max-width: 1367px) {
@@ -1371,10 +1407,23 @@ footer > p > a {
 
 @media (min-width: 900px) and (max-width: 1200px) {
   .locationheight {
-    padding-top: 400px;
+      height: 95vh;
+    padding-top: 250px;
   }
   .locationVideo {
-    margin-top: 160px;
+    margin-top: 0px;
+  }
+  .locationParagrafimg {
+    margin-bottom: 0px;
+  }
+  .locationParagraf{
+      margin-right: 0;
+  }
+  .map{
+    width: 550px;
+  }
+  #skuter{
+      bottom: 150px;
   }
 }
 
@@ -1426,6 +1475,9 @@ footer > p > a {
   }
   .map {
     height: 200px !important;
+  }
+  #skuter {
+      bottom: 130px;
   }
 }
 
