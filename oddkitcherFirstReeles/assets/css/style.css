@@ -550,6 +550,13 @@ div#preloader {
         width: 227px !important;
         height: 50px;
     }
+    .orderBtn {
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+    .homeNavBar {
+        margin-top: 20px !important;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1367px) {
@@ -558,14 +565,14 @@ div#preloader {
         height: 43px;
     }
     .homeNavBar {
-        margin-top: 26px !important;
+        margin-top: 20px !important;
     }
     #navbarSupportedContent>ul>li>a {
         font-size: 16px !important;
     }
     .orderBtn {
-        margin-top: 20px !important;
-        margin-bottom: 30px !important;
+        margin-top: 15px !important;
+        margin-bottom: 25px !important;
     }
     .orderBtn>img {
         width: 193.5px !important;
