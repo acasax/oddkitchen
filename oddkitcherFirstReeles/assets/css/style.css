@@ -20,6 +20,8 @@ body {
     font-family: "Montserrat", sans-serif !important;
 }
 
+
+
 @media (min-width: 1200px) {
     .main {
         height: 100%;
@@ -53,6 +55,9 @@ body {
     .gifHome {
         height: 350px !important;
     }
+    .homeNavBar {
+      padding: 0.2rem 1rem !important;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1367px) {
@@ -64,6 +69,9 @@ body {
     }
     .gifHome {
         height: 310px !important;
+    }
+    .homeNavBar {
+      padding: 0.2rem 1rem !important;
     }
 }
 
@@ -116,7 +124,10 @@ body {
 }
 
 .famliyHeder {
-    margin-bottom: 80px;
+    margin-bottom: 192px;
+    margin-bottom: 76px;
+    height: 120px;
+    width: 653px;
 }
 
 .itemFamilyRow {
@@ -218,6 +229,10 @@ body {
     .contactbodyheight {
         height: 92vh !important;
     }
+
+ 
+
+  
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -239,8 +254,11 @@ body {
         padding-top: 153px;
     }
     .famliyHeder {
-        margin-bottom: 60px;
-    }
+      margin-bottom: 160px;
+      margin-bottom: 63px;
+      height: 100px;
+      width: 544px;
+  }
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
@@ -334,8 +352,11 @@ body {
         padding-top: 131px;
     }
     .famliyHeder {
-        margin-bottom: 48px;
-    }
+      margin-bottom: 137px;
+      margin-bottom: 53px;
+      height: 85px;
+      width: 464px;
+  }
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -403,7 +424,10 @@ body {
         padding-top: 130px;
     }
     .famliyHeder {
-        margin-bottom: 30px;
+      margin-bottom: 137px;
+      margin-bottom: 53px;
+      height: auto;
+      width: 400px;
     }
 }
 
@@ -461,8 +485,10 @@ body {
         padding-top: 150px;
     }
     .famliyHeder {
-        margin-bottom: 25px;
-        width: 340px;
+      
+      margin-bottom: 40px;
+      height: auto;
+      width: 320px;
     }
 }
 
