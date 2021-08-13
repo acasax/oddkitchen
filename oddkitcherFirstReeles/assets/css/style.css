@@ -796,6 +796,8 @@ div.aboutBG>img {
 }
 
 .aboutBtn {
+    position: absolute;
+    bottom: 50px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -1098,7 +1100,7 @@ div.aboutBG>img {
 
 /* Location */
 
-div#skuter {
+div.skuter {
     position: fixed;
     left: 0;
     top: 0;
@@ -1414,44 +1416,62 @@ footer>p>a {
     font-size: 40px;
     font-weight: 400;
     text-align: center;
-    margin-right: 45px;
+    margin-bottom: 0px;
 }
 
 .locationParagrafimg {
-    margin-bottom: 45px;
+    height: 132px;
+    width: 571px;
+    margin-bottom: 10px;
 }
 
 .locationVideo {
     margin-top: 150px;
 }
 
-#skuter {
-    position: fixed;
+.skuter {
+    position: relative;
     bottom: 70px;
     left: 0;
+}
+
+.locationBody{
+    max-width: 1256px !important;
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
     .locationVideo {
         margin-top: 125px;
     }
+
     .locationheight {
         padding-top: 200px;
         height: 91vh;
     }
-    #skuter {
+
+    .skuter {
         height: 250px;
+        bottom: 85px;
     }
+
     .locationParagraf {
         line-height: 1.25;
         font-size: 33px;
-        margin-right: 37px;
     }
+
     .locationParagrafimg {
-        margin-bottom: 37px;
+        height: 110px;
+        width: 476px;
+        margin-bottom: 10px;
     }
+    
     .map {
-        height: 236px;
+        width: 429px;
+        height: 270px;
+    }
+
+    .locationBody{
+        width: 1046px !important;
     }
 }
 
@@ -1472,8 +1492,8 @@ footer>p>a {
     .map {
         width: 550px;
     }
-    #skuter {
-        bottom: 150px;
+    .skuter {
+        bottom: 0px;
     }
 }
 
@@ -1489,16 +1509,21 @@ footer>p>a {
     }
     .locationParagrafimg {
         height: 94px;
-        margin-bottom: 32px;
+        width: 406px;
+        margin-bottom: 10px;
     }
     .locationVideo {
         margin-top: 70px;
     }
-    #skuter {
-        bottom: 55px;
+    .skuter {
+        bottom: 0px;
     }
     .map {
-        height: 201px;
+        width: 366px;
+        height: 230px;
+    }
+    .locationBody{
+        width: 893px !important;
     }
 }
 
@@ -1518,7 +1543,7 @@ footer>p>a {
     }
     .locationParagrafimg {
         height: 130px;
-        margin-bottom: 30px;
+        margin-bottom: 0;
     }
     .locationVideo {
         margin-top: 150px;
@@ -1526,8 +1551,8 @@ footer>p>a {
     .map {
         height: 200px !important;
     }
-    #skuter {
-        bottom: 130px;
+    .skuter {
+        bottom: 60px;
     }
 }
 
@@ -1546,14 +1571,18 @@ footer>p>a {
         margin-right: 0px;
     }
     .locationParagrafimg {
-        height: 75px;
-        margin-bottom: 20px;
+        height: 70px;
+        width: 305px;
+        margin-bottom: 0px;
     }
     .locationVideo {
         margin-top: 100px;
     }
     .map {
         height: 200px !important;
+    }
+    .skuter {
+        top: 0px;
     }
 }
 
