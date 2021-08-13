@@ -73,6 +73,9 @@ body {
     padding-right: 60px !important;
     padding-left: 60px !important;
   }
+  .gifHome {
+    margin-top: 65px !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -876,6 +879,7 @@ div.aboutBG > img {
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+
   #myCarousel > div > div > div > img {
     max-height: 80px;
   }
