@@ -20,8 +20,6 @@ body {
     font-family: "Montserrat", sans-serif !important;
 }
 
-
-
 @media (min-width: 1200px) {
     .main {
         height: 100%;
@@ -56,7 +54,7 @@ body {
         height: 350px !important;
     }
     .homeNavBar {
-      padding: 0.2rem 1rem !important;
+        padding: 0.2rem 1rem !important;
     }
 }
 
@@ -71,19 +69,19 @@ body {
         height: 310px !important;
     }
     .homeNavBar {
-      padding: 0.2rem 1rem !important;
+        padding: 0.2rem 1rem !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .homeBody {
-    max-width: 1202px !important;
-    padding-right: 60px !important;
-    padding-left: 60px !important;
-  }
-  .gifHome {
-    margin-top: 65px !important;
-  }
+    .homeBody {
+        max-width: 1202px !important;
+        padding-right: 60px !important;
+        padding-left: 60px !important;
+    }
+    .gifHome {
+        margin-top: 65px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -229,10 +227,6 @@ body {
     .contactbodyheight {
         height: 92vh !important;
     }
-
- 
-
-  
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -254,11 +248,11 @@ body {
         padding-top: 153px;
     }
     .famliyHeder {
-      margin-bottom: 160px;
-      margin-bottom: 63px;
-      height: 100px;
-      width: 544px;
-  }
+        margin-bottom: 160px;
+        margin-bottom: 63px;
+        height: 100px;
+        width: 544px;
+    }
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
@@ -352,11 +346,11 @@ body {
         padding-top: 131px;
     }
     .famliyHeder {
-      margin-bottom: 137px;
-      margin-bottom: 53px;
-      height: 85px;
-      width: 464px;
-  }
+        margin-bottom: 137px;
+        margin-bottom: 53px;
+        height: 85px;
+        width: 464px;
+    }
 }
 
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -424,10 +418,10 @@ body {
         padding-top: 130px;
     }
     .famliyHeder {
-      margin-bottom: 137px;
-      margin-bottom: 53px;
-      height: auto;
-      width: 400px;
+        margin-bottom: 137px;
+        margin-bottom: 53px;
+        height: auto;
+        width: 400px;
     }
 }
 
@@ -485,10 +479,9 @@ body {
         padding-top: 150px;
     }
     .famliyHeder {
-      
-      margin-bottom: 40px;
-      height: auto;
-      width: 320px;
+        margin-bottom: 40px;
+        height: auto;
+        width: 320px;
     }
 }
 
@@ -924,22 +917,21 @@ div.aboutBG>img {
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-
-  #myCarousel > div > div > div > img {
-    max-height: 80px;
-  }
-  #myCarousel > div > div > div > img:nth-child(1) {
-    padding-right: 60px !important;
-  }
-  #myCarousel > div > div > div > img:nth-child(2) {
-    padding-right: 60px !important;
-  }
-  .spooner {
-    max-height: 58px !important;
-  }
-  .pizzacult {
-    max-height: 63px !important;
-  }
+    #myCarousel>div>div>div>img {
+        max-height: 80px;
+    }
+    #myCarousel>div>div>div>img:nth-child(1) {
+        padding-right: 60px !important;
+    }
+    #myCarousel>div>div>div>img:nth-child(2) {
+        padding-right: 60px !important;
+    }
+    .spooner {
+        max-height: 58px !important;
+    }
+    .pizzacult {
+        max-height: 63px !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1430,12 +1422,12 @@ footer>p>a {
 }
 
 .skuter {
-    position: relative;
+    position: fixed;
     bottom: 70px;
     left: 0;
 }
 
-.locationBody{
+.locationBody {
     max-width: 1256px !important;
 }
 
@@ -1443,34 +1435,28 @@ footer>p>a {
     .locationVideo {
         margin-top: 125px;
     }
-
     .locationheight {
         padding-top: 200px;
         height: 91vh;
     }
-
     .skuter {
         height: 250px;
         bottom: 85px;
     }
-
     .locationParagraf {
         line-height: 1.25;
         font-size: 33px;
     }
-
     .locationParagrafimg {
         height: 110px;
         width: 476px;
         margin-bottom: 10px;
     }
-    
     .map {
         width: 429px;
         height: 270px;
     }
-
-    .locationBody{
+    .locationBody {
         width: 1046px !important;
     }
 }
@@ -1493,7 +1479,7 @@ footer>p>a {
         width: 550px;
     }
     .skuter {
-        bottom: 0px;
+        bottom: 110px;
     }
 }
 
@@ -1516,13 +1502,13 @@ footer>p>a {
         margin-top: 70px;
     }
     .skuter {
-        bottom: 0px;
+        bottom: 65px;
     }
     .map {
         width: 366px;
         height: 230px;
     }
-    .locationBody{
+    .locationBody {
         width: 893px !important;
     }
 }
@@ -1552,7 +1538,7 @@ footer>p>a {
         height: 200px !important;
     }
     .skuter {
-        bottom: 60px;
+        bottom: 130px;
     }
 }
 
@@ -1582,7 +1568,7 @@ footer>p>a {
         height: 200px !important;
     }
     .skuter {
-        top: 0px;
+        bottom: 120px;
     }
 }
 
