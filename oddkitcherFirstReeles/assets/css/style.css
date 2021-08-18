@@ -1483,7 +1483,7 @@ footer>p>a {
 
 @media (min-width: 1200px) and (max-width: 1366px) {
     .locationheight {
-        padding-top: 140px;
+        padding-top: 100px;
         height: 91vh;
     }
     .locationParagraf {
@@ -1500,7 +1500,7 @@ footer>p>a {
         margin-top: 70px;
     }
     .skuter {
-        bottom: 65px;
+        bottom: 60px;
     }
     .map {
         width: 366px;
