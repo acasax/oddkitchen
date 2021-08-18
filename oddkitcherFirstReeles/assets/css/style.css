@@ -789,8 +789,6 @@ div.aboutBG>img {
 }
 
 .aboutBtn {
-    position: absolute;
-    bottom: 50px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
