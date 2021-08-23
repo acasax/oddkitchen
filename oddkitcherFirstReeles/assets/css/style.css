@@ -853,7 +853,7 @@ div.aboutBG>img {
 }
 
 #myCarousel>div>div>div>img {
-    padding-right: 65px !important;
+    padding-right: 65px;
     max-height: 104px;
 }
 
@@ -922,7 +922,10 @@ div.aboutBG>img {
         padding-right: 60px !important;
     }
     #myCarousel>div>div>div>img:nth-child(2) {
-        padding-right: 60px !important;
+        padding-right: 60px;
+    }
+    .cetrnaesti{
+        padding-right: 0px !important;
     }
     .spooner {
         max-height: 58px !important;
