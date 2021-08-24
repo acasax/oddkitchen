@@ -219,15 +219,19 @@ body {
 }
 
 .contactbodyheight {
+    height: 95vh !important;
     padding-top: 153px;
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
-    .contactbodyheight {}
+    .contactbodyheight {
+        height: 91vh !important;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
     .contactbodyheight {
+        height: 86vh !important;
         padding-top: 120px;
     }
 }
@@ -532,7 +536,7 @@ div#preloader {
         background-image: url(../img/contact/contactpozadina.jpg);
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     .contactItems {
         padding-left: 0px;
