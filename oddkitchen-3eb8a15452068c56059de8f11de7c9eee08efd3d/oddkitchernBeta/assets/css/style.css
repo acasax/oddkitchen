@@ -1,0 +1,528 @@
+/*CSS HOME*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    min-width: 360px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.homeBody {
+    max-width: 1202px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .homeBody {
+        max-width: 1202px !important;
+        padding-right: 60px !important;
+        padding-left: 60px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .homeBody {
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .homeBody {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+}
+
+
+/*Preloader*/
+
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url('../img/Loading.gif') no-repeat center center;
+}
+
+
+/*Pozadina home*/
+
+.homeBg {
+    padding-top: 44px;
+    background-image: url('../img/home/brickbackground.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*Logo pocetna*/
+
+.homeLogo {
+    width: 272px !important;
+    height: 60px;
+    display: flex !important;
+}
+
+@media (max-width: 960px) {
+    .homeLogo {
+        display: none !important;
+    }
+}
+
+
+/* Nav bar pocetna */
+
+.homeNavBar {
+    margin-top: 37px;
+}
+
+#navbarSupportedContent>ul>li>a {
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    padding-right: 140px;
+}
+
+#navbarSupportedContent>ul>li:nth-child(4)>a {
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    display: none !important;
+}
+
+@media (max-width: 960px) {
+    .homeNavBar {
+        margin-top: 0px !important;
+        height: 0;
+    }
+    .navbar-brand {
+        display: inline-block !important;
+    }
+    .navbar-brand img {
+        height: 45px !important;
+    }
+    #navbarSupportedContent>ul>li>a {
+        padding-right: 0px;
+        float: right;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+}
+
+
+/*Navbar About*/
+
+.aboutNav {
+    background: #030303;
+    height: 84px;
+    border: #707070 1px solid;
+    padding: 18px 1rem !important;
+}
+
+.aboutImg {
+    height: 47px;
+    position: relative;
+    margin-left: 13px;
+}
+
+#navbarSupportedContent>ul>li>a {
+    background-color: transparent;
+}
+
+@media (max-width: 960px) {
+    #navbarSupportedContent>ul>li:nth-child(1)>a {
+        padding-top: 20px;
+    }
+}
+
+.aboutNavList {
+    margin-left: -225px;
+}
+
+@media (max-width: 1000px) {
+    .aboutNavList {
+        margin-left: 0px;
+    }
+    #navbarSupportedContent>ul>li>a {
+        background-color: black;
+        text-align: center;
+        width: 130px;
+        float: right;
+    }
+}
+
+
+/*About BG*/
+
+div.aboutBG>img {
+    width: 100% !important;
+}
+
+
+/* Heder text */
+
+.hederTxt {
+    margin-top: 63px;
+}
+
+@media (max-width: 720px) {
+    .hederTxt {
+        width: 300px !important;
+        max-height: 140px !important;
+        margin-top: 90px;
+    }
+    .heder1Txt {
+        margin-top: 25px !important;
+        height: 43px !important;
+    }
+}
+
+@media (max-width: 960px) and (min-width: 720px) {
+    .hederTxt {
+        width: 650px;
+        max-height: 303px !important;
+        margin-top: 134px;
+    }
+    .heder1Txt {
+        height: 90px !important;
+    }
+}
+
+.heder1Txt {
+    margin-top: 49px;
+    margin-bottom: 45px;
+    height: 105px;
+}
+
+#navbarSupportedContent {
+    justify-content: center !important;
+    z-index: 9;
+}
+
+
+/*Caroseul*/
+
+#myCarousel {
+    margin-bottom: 145px !important;
+}
+
+#myCarousel>div>div>div>img {
+    padding-right: 35px !important;
+}
+
+.spooner {
+    max-height: 76px !important;
+}
+
+.pizzacult {
+    max-height: 82px !important;
+}
+
+#myCarousel>div>div>div>img:nth-child(7) {
+    padding-right: 0px !important;
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    #myCarousel>div>div>div>img {
+        max-height: 105px;
+    }
+    .spooner {
+        max-height: 76px !important;
+    }
+    .pizzacult {
+        max-height: 82px !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #myCarousel>div>div>div>img {
+        max-height: 80px;
+    }
+    .spooner {
+        max-height: 58px !important;
+    }
+    .pizzacult {
+        max-height: 63px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #myCarousel>div>div.row.d-flex.d-md-none.d-lg-none.justify-content-center>img {
+        max-height: 75px;
+    }
+    #myCarousel>div>div.row.d-flex.d-md-none.d-lg-none.justify-content-center>img:nth-child(1) {
+        padding-right: 35px;
+    }
+    .spooner {
+        max-height: 55px !important;
+    }
+    .pizzacult {
+        max-height: 60px !important;
+    }
+}
+
+@media (max-width: 960px) {
+    #myCarousel>div>div>div>img:nth-child(3) {
+        padding-right: 0px !important;
+    }
+}
+
+
+/*About heder txt*/
+
+.hederText {
+    height: 82px;
+    margin-bottom: 10px;
+    max-width: 245px;
+}
+
+.aboutTxt {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
+    padding: 0 40px;
+}
+
+@media (min-width: 1200px) {
+    .aboutTxtRow {
+        max-width: 1663px !important;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .aboutTxtRow {
+        max-width: 800px !important;
+    }
+    .hederText {
+        height: 65px;
+    }
+    .aboutTxt {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+    .aboutTxtRow {
+        max-width: 600px !important;
+    }
+    .hederText {
+        height: 60px;
+    }
+    .aboutTxt {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .aboutTxtRow {
+        max-width: 350px !important;
+    }
+    .aboutTxt {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0 10px;
+    }
+    .hederText {
+        height: 55px;
+        margin-bottom: 17px;
+        max-width: 245px;
+    }
+    body>div.container.aboutTxtRow>div>div:nth-child(1) {
+        margin-top: 20px !important;
+    }
+}
+
+
+/* Location */
+
+div#skuter {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 50%;
+    overflow: visible;
+    background: #fff url('../img/location.gif') repeat center center;
+    margin-top: 50vh;
+}
+
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 50%;
+    overflow: visible;
+}
+
+
+/*---- Contact us -----*/
+
+.contactHead {
+    margin-top: 65px;
+    margin-bottom: 35px;
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+#contactForm {
+    margin-bottom: 65px;
+}
+
+.contactHead2 {
+    color: white;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.contactParagraf {
+    color: white;
+    line-height: 1.7;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.formLabel {
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.formInput {
+    width: 100% !important;
+    font-size: 25px;
+    padding: 5px 0;
+    background: transparent;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    color: white;
+}
+
+#contactForm>div {
+    padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+    .contactHead {
+        margin-top: 50px;
+        margin-bottom: 26px;
+    }
+    #contactForm {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .contactHead {
+        margin-top: 60px;
+        margin-bottom: 16px;
+    }
+    #contactForm {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+    .contactHead {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    #contactForm {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactHead {
+        margin-top: 15px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    #contactForm {
+        margin-bottom: 15px;
+    }
+}
+
+.btnSend {
+    font-size: 16px;
+    padding: 10px 30px;
+    background: red;
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+
+
+/*---- Footer ----*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 25px;
+    width: 100%;
+    height: 60px;
+}
+
+@media (max-width: 576px) {
+    footer {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    body>footer {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+.homeFooter {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.aboutFooter {
+    background: rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+footer div p {
+    margin: 0 !important;
+    color: white;
+    font-size: 20px;
+}
+
+footer div p a {
+    color: white;
+}
+
+.footerIcon {
+    position: absolute;
+    left: 25px;
+    transform: scale(2);
+}
