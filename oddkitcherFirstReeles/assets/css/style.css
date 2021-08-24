@@ -1246,6 +1246,9 @@ div.skuter {
         position: fixed;
         bottom: 20px;
     }
+    .formLabel {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1367px) {
@@ -1359,6 +1362,9 @@ footer>p>a {
         margin-bottom: 15px;
         font-weight: 500;
         text-align: center;
+    }
+    .contactp {
+        margin-bottom: 44px;
     }
 }
 
