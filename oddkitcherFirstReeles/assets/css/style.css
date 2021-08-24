@@ -219,26 +219,21 @@ body {
 }
 
 .contactbodyheight {
-    height: 95vh !important;
     padding-top: 153px;
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
-    .contactbodyheight {
-        height: 91vh !important;
-    }
+    .contactbodyheight {}
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
     .contactbodyheight {
-        height: 86vh !important;
         padding-top: 120px;
     }
 }
 
 @media (max-width: 576px) {
     .contactbodyheight {
-        height: 94vh !important;
         padding-top: 110px;
     }
 }
@@ -931,7 +926,7 @@ div.aboutBG>img {
     #myCarousel>div>div>div>img:nth-child(2) {
         padding-right: 60px;
     }
-    .cetrnaesti{
+    .cetrnaesti {
         padding-right: 0px !important;
     }
     .spooner {
@@ -1578,7 +1573,6 @@ footer>p>a {
     .skuter {
         bottom: 120px;
     }
-
     .locationBtn {
         bottom: 50px;
         margin-top: 10px;
