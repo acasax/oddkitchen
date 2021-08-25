@@ -238,6 +238,7 @@ body {
 
 @media (max-width: 576px) {
     .contactbodyheight {
+        height: 100vh;
         padding-top: 110px;
     }
 }
@@ -537,6 +538,7 @@ div#preloader {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        height: 120vh;
     }
     .contactItems {
         padding-left: 0px;
