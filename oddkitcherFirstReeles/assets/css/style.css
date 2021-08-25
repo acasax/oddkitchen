@@ -696,12 +696,6 @@ div#preloader {
     }
 }
 
-
-/*.aboutNavList {
-    margin-left: -225px;
-}
-*/
-
 @media (max-width: 1000px) {
     .aboutNavList {
         margin-left: 0px;
@@ -711,6 +705,9 @@ div#preloader {
         text-align: center;
         width: 130px;
         float: right;
+    }
+    .aboutImg {
+        margin-left: 0px !important;
     }
 }
 
@@ -1574,7 +1571,7 @@ footer>p>a {
         margin-top: 100px;
     }
     .map {
-        height: 200px !important;
+        height: 170px !important;
     }
     .skuter {
         bottom: 120px;
