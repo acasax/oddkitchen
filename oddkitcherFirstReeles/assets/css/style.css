@@ -219,15 +219,19 @@ body {
 }
 
 .contactbodyheight {
+    height: 95vh;
     padding-top: 153px;
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
-    .contactbodyheight {}
+    .contactbodyheight {
+        height: 91vh;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
     .contactbodyheight {
+        height: 86vh;
         padding-top: 120px;
     }
 }
@@ -715,7 +719,7 @@ div#preloader {
 /* Family nav*/
 
 .familyNav {
-    border: none;
+    border: transparent 1px solid !important;
 }
 
 
@@ -1571,7 +1575,7 @@ footer>p>a {
         margin-top: 100px;
     }
     .map {
-        height: 170px !important;
+        height: 175px !important;
     }
     .skuter {
         bottom: 120px;
