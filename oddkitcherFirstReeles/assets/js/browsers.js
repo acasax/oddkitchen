@@ -8,7 +8,7 @@ var pcVideo = document.getElementById("videoPC");
 var mobVideo = document.getElementById("videoMOB");
 
 if (result.device.family === "iPhone" || result.device.family === "iPad" || result.device.family === "iPod") {
-    pcVideo.innerHTML = '<img src="assets/img/home/1024x515.gif" alt="" width="100%"></img>';
+    pcVideo.innerHTML = '<img src="assets/img/home/1920x624novi.gif" alt="" width="100%"></img>';
     mobVideo.innerHTML = '<img src="assets/img/home/1024x515.gif" alt="" width="100%"></img>';
     console.log(result.os.family);
 } else {
