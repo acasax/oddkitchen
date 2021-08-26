@@ -238,7 +238,8 @@ body {
 
 @media (max-width: 576px) {
     .contactbodyheight {
-        padding-top: 110px;
+        height: 100%;
+        padding-top: 130px;
     }
 }
 
