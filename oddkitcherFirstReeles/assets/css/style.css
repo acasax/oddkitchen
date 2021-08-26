@@ -537,7 +537,6 @@ div#preloader {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        min-height: 900px;
     }
     .contactItems {
         padding-left: 0px;

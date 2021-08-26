@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
 </head>
 
-<body class="w-100 contactBg">
+<body class="w-100 h-100">
 
     <!--Preloader-->
     <div id="preloader"></div>
@@ -54,63 +54,68 @@
 
 
     <!--Body-->
-    <div class=" d-flex align-items-center contactbodyheight">
-        <div class="container homeBody">
-            <div class="row d-flex justify-content-center">
+    <div class="contactBg">
+        <div class=" d-flex align-items-center contactbodyheight ">
+            <div class="container homeBody">
+                <div class="row d-flex justify-content-center">
 
-                <div class="col-12 col-lg-6 d-flex d-lg-none align-content-center align-items-center">
+                    <div class="col-12 col-lg-6 d-flex d-lg-none align-content-center align-items-center">
 
-                    <p class="contactParagraf">
-                        <img src="assets/img/contact/throwusashout.png" class="contactHead2 w-100">
-                    </p>
+                        <p class="contactParagraf">
+                            <img src="assets/img/contact/throwusashout.png" class="contactHead2 w-100">
+                        </p>
 
-                </div>
+                    </div>
 
-                <!--Forma-->
-                <div class="col-12 col-lg-6 contactItems">
+                    <!--Forma-->
+                    <div class="col-12 col-lg-6 contactItems">
 
-                    <form id="contactForm" method="post" enctype="multipart/form-data">
+                        <form id="contactForm" method="post" enctype="multipart/form-data">
 
-                        <div class="col-12">
+                            <div class="col-12">
 
-                            <label for="name" class="formLabel">Name</label>
-                            <input type="text" id="name" name="name" class="formInput" placeholder="" onblur="$(this).valid()">
-                            <label for="name" class=""></label>
+                                <label for="name" class="formLabel">Name</label>
+                                <input type="text" id="name" name="name" class="formInput" placeholder="" onblur="$(this).valid()">
+                                <label for="name" class=""></label>
 
-                        </div>
-
-                        <div class="col-12">
-
-                            <label for="email" class="formLabel">E-mail</label>
-                            <input type="email" id="email" name="email" class="formInput" placeholder="" onblur="$(this).valid()">
-                            <label for="email" class=""></label>
-
-                        </div>
-
-                        <div class="col-12">
-
-                            <label for="message" class="formLabel">Message</label>
-                            <textarea id="message" rows="5" placeholder="" class="formInput" onblur="$(this).valid()" name="message"></textarea>
-
-                        </div>
-                        <div class="d-flex justify-content-start col-12">
-                            <div class="btnSend">
-                                <button type="submit"></button>
-                                <!--<img src="assets/img/contact/send.png">-->
                             </div>
-                        </div>
 
-                    </form>
+                            <div class="col-12">
 
-                </div>
-                <!--Tekst-->
+                                <label for="email" class="formLabel">E-mail</label>
+                                <input type="email" id="email" name="email" class="formInput" placeholder="" onblur="$(this).valid()">
+                                <label for="email" class=""></label>
 
-                <div class="col-12 col-lg-6 d-none d-lg-flex align-content-center align-items-center">
+                            </div>
 
-                    <p class="contactParagraf">
-                        <img src="assets/img/contact/throwusashout.png" class="contactHead2 w-100"> Thanks for visiting us and we hope you're enjoying our services. Leave us any feedback you think is necessary, we love constructive criticism. Please be
-                        aware, we are the new kids on the block, so be gentle and someone will get back to you ASAP. Stay ODD!!
-                    </p>
+                            <div class="col-12">
+
+                                <label for="message" class="formLabel">Message</label>
+                                <textarea id="message" rows="5" placeholder="" class="formInput" onblur="$(this).valid()" name="message"></textarea>
+
+                            </div>
+                            <div class="d-flex justify-content-start col-12">
+                                <div class="btnSend">
+                                    <button type="submit"></button>
+                                    <!--<img src="assets/img/contact/send.png">-->
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <!--Tekst-->
+
+                    <div class="col-12 col-lg-6 d-none d-lg-flex align-content-center align-items-center">
+
+                        <p class="contactParagraf">
+                            <img src="assets/img/contact/throwusashout.png" class="contactHead2 w-100"> Thanks for visiting us and we hope you're enjoying our services. Leave us any feedback you think is necessary, we love constructive criticism. Please
+                            be aware, we are the new kids on the block, so be gentle and someone will get back to you ASAP. Stay ODD!!
+                        </p>
+
+                    </div>
+
+
 
                 </div>
 
@@ -123,25 +128,21 @@
         </div>
 
 
-
-    </div>
-
-
-    <div class="d-flex justify-content-center align-items-center ">
-        <div class="aboutBtn d-flex d-xl-none">
-            <img src="assets/img/comingsoonsmall.png">
+        <div class="d-flex justify-content-center align-items-center ">
+            <div class="aboutBtn d-flex d-xl-none">
+                <img src="assets/img/comingsoonsmall.png">
+            </div>
         </div>
+
+
+        <footer class="d-flex justify-content-center align-items-center familyFooter ">
+            <p>
+                &copy 2021 <a href="https://www.instagram.com/mikaja_design/ ">Mikaja Design</a> & <a href="https://resivoje.com/ ">ResivoJe</a>
+            </p>
+        </footer>
+
+
     </div>
-
-
-    <footer class="d-flex justify-content-center align-items-center familyFooter ">
-        <p>
-            &copy 2021 <a href="https://www.instagram.com/mikaja_design/ ">Mikaja Design</a> & <a href="https://resivoje.com/ ">ResivoJe</a>
-        </p>
-    </footer>
-
-
-
 
     <!--jQuery-->
 
