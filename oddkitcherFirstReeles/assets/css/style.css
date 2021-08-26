@@ -231,14 +231,13 @@ body {
 
 @media (min-width: 577px) and (max-width: 768px) {
     .contactbodyheight {
-        height: 86vh;
+        height: 85vh;
         padding-top: 120px;
     }
 }
 
 @media (max-width: 576px) {
     .contactbodyheight {
-        height: 100vh;
         padding-top: 110px;
     }
 }
@@ -538,7 +537,7 @@ div#preloader {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        height: 120vh;
+        min-height: 900px;
     }
     .contactItems {
         padding-left: 0px;
@@ -1190,7 +1189,7 @@ div.skuter {
         margin-bottom: 30px;
     }
     .contactbodyheight {
-        height: 89vh !important;
+        height: 87vh !important;
     }
     .contactFooter>p {
         margin-bottom: 0;
