@@ -1,8 +1,4 @@
 var result = detect.parse(navigator.userAgent);
-console.log(result);
-/*document.write("You are using " + result.browser.family +
-    " v" + result.browser.version +
-    " on " + result.os.family); */
 
 var pcVideo = document.getElementById("videoPC");
 var mobVideo = document.getElementById("videoMOB");
