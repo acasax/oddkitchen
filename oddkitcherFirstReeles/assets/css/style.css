@@ -112,7 +112,7 @@ body {
 /*Family body*/
 
 .familyBg {
-    background-image: url("../img/family/familybackground.jpg");
+    background-image: url("../img/family/familybackground.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -1407,7 +1407,7 @@ footer>p>a {
 }
 
 .locationheight {
-    height: 92vh;
+    height: 90vh;
     padding-top: 240px;
     overflow-x: hidden;
 }
@@ -1448,7 +1448,7 @@ footer>p>a {
     }
     .locationheight {
         padding-top: 130px;
-        height: 91vh;
+        height: 88vh;
     }
     .skuter {
         height: 250px;
@@ -1474,7 +1474,7 @@ footer>p>a {
 
 @media (min-width: 900px) and (max-width: 1200px) {
     .locationheight {
-        height: 95vh;
+        height: 88vh;
         padding-top: 250px;
     }
     .locationVideo {
@@ -1490,14 +1490,14 @@ footer>p>a {
         width: 550px;
     }
     .skuter {
-        bottom: 110px;
+        bottom: 160px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
     .locationheight {
         padding-top: 100px;
-        height: 91vh;
+        height: 87vh;
     }
     .locationParagraf {
         line-height: 1;
@@ -1526,7 +1526,7 @@ footer>p>a {
 
 @media (min-width: 576px) and (max-width: 900px) {
     .locationheight {
-        height: 93vh;
+        height: 85vh;
         padding-top: 125px;
     }
     .locationParagraf {
@@ -1549,13 +1549,13 @@ footer>p>a {
         height: 200px !important;
     }
     .skuter {
-        bottom: 130px;
+        bottom: 145px;
     }
 }
 
 @media (max-width: 576px) {
     .locationheight {
-        height: 91vh;
+        height: 100%;
         padding-top: 125px;
     }
     .locationParagraf {
@@ -1579,7 +1579,9 @@ footer>p>a {
         height: 175px !important;
     }
     .skuter {
-        bottom: 120px;
+        position: relative;
+        bottom: 0px;
+        margin-top: 80px;
     }
     .locationBtn {
         bottom: 50px;
