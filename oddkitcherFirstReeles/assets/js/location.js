@@ -7,12 +7,20 @@ $(document).ready(function() {
         pre_loader.fadeOut(3000, function() { $(this).remove(); });
     });
 
+    var skuter2 = document.getElementById('skuter2');
+    var skuter3 = document.getElementById('skuter3');
     //skuter 
     setTimeout(function() {
-        document.getElementById('skuter2').playbackRate = 2.0;
-        document.getElementById('skuter2').play();
-        document.getElementById('skuter3').playbackRate = 2.0;
-        document.getElementById('skuter3').play();
+       if(skuter2 != null){
+        skuter2.playbackRate = 2.0;
+        skuter2.play();
+       }
+
+       if(skuter3 != null){
+        skuter3.playbackRate = 2.0;
+        skuter3.play();
+       }
+       
     }, 5000);
 
 });

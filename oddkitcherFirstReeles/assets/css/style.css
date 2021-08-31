@@ -1384,6 +1384,12 @@ footer>p>a {
         font-weight: 500;
         margin-bottom: 0;
     }
+
+    .familyFooter>p {
+        margin-top: 15px;
+        margin-bottom: 27px;
+        text-align: center;
+    }
     .aboutFooter {
         font-size: 13px;
         margin-bottom: 15px;
@@ -1404,6 +1410,11 @@ footer>p>a {
         font-size: 12px;
         font-weight: 500;
         margin-bottom: 0;
+    }
+    .familyFooter>p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
     }
     .homeFooter {
         margin-bottom: 31px;
@@ -1426,13 +1437,14 @@ footer>p>a {
 
 .locationBg {
     background: url(../img/Locations/locationsbackgroundedit6.jpg) no-repeat bottom left;
-    /* background-position: center; */
+     background-position: center; 
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
 }
 
 .locationheight {
-    height: 90vh;
+    height: 92vh;
     padding-top: 240px;
     overflow-x: hidden;
 }
@@ -1473,7 +1485,7 @@ footer>p>a {
     }
     .locationheight {
         padding-top: 130px;
-        height: 88vh;
+        height: 91vh;
     }
     .skuter {
         height: 250px;
@@ -1499,7 +1511,7 @@ footer>p>a {
 
 @media (min-width: 900px) and (max-width: 1200px) {
     .locationheight {
-        height: 88vh;
+        height: 90vh;
         padding-top: 250px;
     }
     .locationVideo {
@@ -1515,14 +1527,14 @@ footer>p>a {
         width: 550px;
     }
     .skuter {
-        bottom: 160px;
+        bottom: 130px;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1366px) {
     .locationheight {
         padding-top: 100px;
-        height: 87vh;
+        height: 91vh;
     }
     .locationParagraf {
         line-height: 1;
@@ -1551,7 +1563,7 @@ footer>p>a {
 
 @media (min-width: 576px) and (max-width: 900px) {
     .locationheight {
-        height: 85vh;
+        height: 86vh;
         padding-top: 125px;
     }
     .locationParagraf {
@@ -1574,7 +1586,7 @@ footer>p>a {
         height: 200px !important;
     }
     .skuter {
-        bottom: 145px;
+        bottom: 130px;
     }
 }
 
@@ -1606,12 +1618,24 @@ footer>p>a {
     .skuter {
         position: relative;
         bottom: 0px;
-        margin-top: 80px;
+        margin-top: 110px;
     }
     .locationBtn {
         bottom: 50px;
         margin-top: 10px;
         margin-bottom: 15px;
+    }
+
+    .locationBg {
+        background: url(../img/Locations/locationsbackgroundedit6.jpg) no-repeat bottom left;
+        background-position: center; 
+        background-size: cover;
+        background-attachment: scroll;
+        height: auto;
+    }
+
+    .locationFooter {
+        margin-bottom: 0 !important;
     }
 }
 
