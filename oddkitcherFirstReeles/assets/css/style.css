@@ -509,7 +509,7 @@ body {
         background-image: url("../img/family/familybackground.png");
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: auto;
         background-repeat: repeat-y;
         padding-top: 150px;
     }
@@ -1394,19 +1394,16 @@ footer>p>a {
         font-weight: 500;
         margin-bottom: 0;
     }
-
     .familyFooter>p {
         margin-top: 15px;
         margin-bottom: 27px;
         text-align: center;
     }
-
     .locationFooter>p {
         margin-top: 15px;
         margin-bottom: 27px;
         text-align: center;
     }
-
     .aboutFooter {
         font-size: 13px;
         margin-bottom: 15px;
@@ -1459,7 +1456,7 @@ footer>p>a {
 
 .locationBg {
     background: url(../img/Locations/locationsbackgroundedit6.jpg) no-repeat bottom left;
-     background-position: center; 
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -1647,15 +1644,13 @@ footer>p>a {
         margin-top: 10px;
         margin-bottom: 15px;
     }
-
     .locationBg {
         background: url(../img/Locations/locationsbackgroundedit6.jpg) no-repeat bottom left;
-        background-position: center; 
+        background-position: center;
         background-size: cover;
         background-attachment: scroll;
         height: auto;
     }
-
     .locationFooter {
         margin-bottom: 0 !important;
     }
