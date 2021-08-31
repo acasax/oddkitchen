@@ -504,7 +504,8 @@ body {
         background-image: url("../img/family/familybackground.png");
         background-position: center;
         background-size: cover;
-        background-attachment: auto;
+        background-attachment: fixed;
+        background-repeat: repeat-y;
         padding-top: 150px;
     }
     .famliyHeder {
