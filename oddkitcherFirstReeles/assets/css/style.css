@@ -115,7 +115,6 @@ body {
     background-image: url("../img/family/familybackground.png");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     margin-top: -5px;
     padding-top: 184px;
 }
@@ -257,7 +256,6 @@ body {
         background-image: url("../img/family/familybackground.png");
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
         padding-top: 153px;
     }
     .famliyHeder {
@@ -288,7 +286,6 @@ body {
         background-image: url("../img/family/familybackground.png");
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
         padding-top: 131px;
     }
 }
@@ -363,7 +360,6 @@ body {
         background-image: url("../img/family/familybackground.png");
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
         padding-top: 131px;
     }
     .famliyHeder {
@@ -439,7 +435,6 @@ body {
         background-image: url("../img/family/familybackground.png");
         background-position: center;
         background-size: cover;
-        background-attachment: fixed;
         padding-top: 130px;
     }
     .famliyHeder {
@@ -503,8 +498,7 @@ body {
     .familyBg {
         background-image: url("../img/family/familybackground.png");
         background-size: cover;
-        background-attachment: fixed !important;
-        background-repeat: repeat-y;
+        background-position: center;
         padding-top: 150px;
     }
     .famliyHeder {
