@@ -116,7 +116,6 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: repeat-y;
     margin-top: -5px;
     padding-top: 184px;
 }
@@ -259,7 +258,6 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        background-repeat: repeat-y;
         padding-top: 153px;
     }
     .famliyHeder {
@@ -291,7 +289,6 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        background-repeat: repeat-y;
         padding-top: 131px;
     }
 }
@@ -367,7 +364,6 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        background-repeat: repeat-y;
         padding-top: 131px;
     }
     .famliyHeder {
@@ -444,7 +440,6 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        background-repeat: repeat-y;
         padding-top: 130px;
     }
     .famliyHeder {
@@ -510,7 +505,6 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: auto;
-        background-repeat: repeat-y;
         padding-top: 150px;
     }
     .famliyHeder {
