@@ -208,9 +208,19 @@ body {
     margin-bottom: 44px;
 }
 
+.locationFooter {
+    margin-bottom: 44px;
+}
+
 .familyFooter>p {
     margin-top: 15px;
     margin-bottom: 44px;
+    text-align: center;
+}
+
+.locationFooter>p {
+    margin-top: 15px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -1390,6 +1400,13 @@ footer>p>a {
         margin-bottom: 27px;
         text-align: center;
     }
+
+    .locationFooter>p {
+        margin-top: 15px;
+        margin-bottom: 27px;
+        text-align: center;
+    }
+
     .aboutFooter {
         font-size: 13px;
         margin-bottom: 15px;
@@ -1412,6 +1429,11 @@ footer>p>a {
         margin-bottom: 0;
     }
     .familyFooter>p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .locationFooter>p {
         margin-top: 15px;
         margin-bottom: 30px;
         text-align: center;
