@@ -112,7 +112,7 @@ body {
 /*Family body*/
 
 .familyBg {
-    background: url("../img/family/familybackground.png") no-repeat center center fixed;
+    background: url("../img/family/familybackground.png") no-repeat fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -256,7 +256,7 @@ body {
 
 @media (min-width: 1368px) and (max-width: 1600px) {
     .familyBg {
-        background: url("../img/family/familybackground.png") no-repeat center center fixed;
+        background: url("../img/family/familybackground.png") no-repeat fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -289,7 +289,7 @@ body {
         width: 267px;
     }
     .familyBg {
-        background: url("../img/family/familybackground.png") no-repeat center center fixed;
+        background: url("../img/family/familybackground.png") no-repeat fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -366,7 +366,7 @@ body {
         width: 267px;
     }
     .familyBg {
-        background: url("../img/family/familybackground.png") no-repeat center center fixed;
+        background: url("../img/family/familybackground.png") no-repeat fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -444,7 +444,7 @@ body {
         width: 475px;
     }
     .familyBg {
-        background: url("../img/family/familybackground.png") no-repeat center center fixed;
+        background: url("../img/family/familybackground.png") no-repeat fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -511,7 +511,7 @@ body {
         padding: 0;
     }
     .familyBg {
-        background: url("../img/family/familybackground.png") no-repeat center center fixed;
+        background: url("../img/family/familybackground.png") no-repeat fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
