@@ -112,10 +112,12 @@ body {
 /*Family body*/
 
 .familyBg {
-    background-image: url("../img/family/familybackground.png");
-    background-position: center;
+    background: url("../img/family/familybackground.png") no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin-top: -5px;
     padding-top: 184px;
 }
@@ -254,10 +256,12 @@ body {
 
 @media (min-width: 1368px) and (max-width: 1600px) {
     .familyBg {
-        background-image: url("../img/family/familybackground.png");
-        background-position: center;
+        background: url("../img/family/familybackground.png") no-repeat center center fixed;
         background-size: cover;
-        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         padding-top: 153px;
     }
     .famliyHeder {
@@ -285,10 +289,12 @@ body {
         width: 267px;
     }
     .familyBg {
-        background-image: url("../img/family/familybackground.png");
-        background-position: center;
+        background: url("../img/family/familybackground.png") no-repeat center center fixed;
         background-size: cover;
-        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         padding-top: 131px;
     }
 }
@@ -360,10 +366,12 @@ body {
         width: 267px;
     }
     .familyBg {
-        background-image: url("../img/family/familybackground.png");
-        background-position: center;
+        background: url("../img/family/familybackground.png") no-repeat center center fixed;
         background-size: cover;
-        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         padding-top: 131px;
     }
     .famliyHeder {
@@ -436,10 +444,12 @@ body {
         width: 475px;
     }
     .familyBg {
-        background-image: url("../img/family/familybackground_iphone.png");
-        background-position: center;
+        background: url("../img/family/familybackground.png") no-repeat center center fixed;
         background-size: cover;
-        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         padding-top: 130px;
     }
     .famliyHeder {
@@ -501,11 +511,12 @@ body {
         padding: 0;
     }
     .familyBg {
-        background-image: url("../img/family/familybackground_iphone.png");
-        background-position: center;
+        background: url("../img/family/familybackground.png") no-repeat center center fixed;
         background-size: cover;
-        background-attachment: fixed;
-        background-repeat: repeat-y;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         padding-top: 150px;
     }
     .famliyHeder {
