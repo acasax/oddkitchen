@@ -521,7 +521,7 @@ body {
         padding: 0;
     }
     .familyBg {
-        background-image: url("../img/family/familybackground.png");
+        background-image: url("../img/family/familybackground_iphone.png");
         background-position: center;
         background-attachment: fixed;
         -o-background-size: cover;
