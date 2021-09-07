@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <title>ODDKITCHEN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -92,6 +93,7 @@
 
                                 <label for="message" class="formLabel">Message</label>
                                 <textarea id="message" rows="5" placeholder="" class="formInput" onblur="$(this).valid()" name="message"></textarea>
+                                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
                             </div>
                             <div class="d-flex justify-content-start col-12">
@@ -159,6 +161,9 @@
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/turn.js"></script>
 
+    <!--Recapture-->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lfed08cAAAAAN6NcmTlghCN_b92YY8T_SpAkFVs"></script>
+    <script src="assets/js/recaptcha.js"></script>
 </body>
 
 </html>
