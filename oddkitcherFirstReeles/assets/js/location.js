@@ -30,7 +30,32 @@ var result = detect.parse(navigator.userAgent);
 var pcVideo = document.getElementById("skuter");
 var mobVideo = document.getElementById("skuter1");
 
-if (result.device.family === "iPhone" || result.device.family === "iPad" || result.device.family === "iPod" || result.os.family === "iOS" || result.device.family === "Mac") {
+function getOS() {
+    var userAgent = window.navigator.userAgent,
+        platform = window.navigator.platform,
+        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+        os = null;
+  
+    if (macosPlatforms.indexOf(platform) !== -1) {
+      os = 'Mac OS';
+    } else if (iosPlatforms.indexOf(platform) !== -1) {
+      os = 'iOS';
+    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+      os = 'Windows';
+    } else if (/Android/.test(userAgent)) {
+      os = 'Android';
+    } else if (!os && /Linux/.test(platform)) {
+      os = 'Linux';
+    }
+  
+    return os;
+  }
+
+console.log(getOS());
+//if (result.device.family === "iPhone" || result.device.family === "iPad" || result.device.family === "iPod" || result.device.family === "Mac") {
+if(getOS() === 'Mac OS' || getOS() === 'iOS'){
     mobVideo.innerHTML = '<img class="skuter" src="assets/img/Locations/1024x320_loop.gif" alt="" width="100%"></img>';
     pcVideo.innerHTML = '<img class="skuter" src="assets/img/Locations/1920x300_loop.gif" alt="" width="100%"></img>';
 
