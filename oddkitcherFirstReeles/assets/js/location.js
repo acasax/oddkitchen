@@ -54,7 +54,6 @@ function getOS() {
   }
 
 console.log(getOS());
-//if (result.device.family === "iPhone" || result.device.family === "iPad" || result.device.family === "iPod" || result.device.family === "Mac") {
 if(getOS() === 'Mac OS' || getOS() === 'iOS'){
     mobVideo.innerHTML = '<img class="skuter" src="assets/img/Locations/1024x320_loop.gif" alt="" width="100%"></img>';
     pcVideo.innerHTML = '<img class="skuter" src="assets/img/Locations/1920x300_loop.gif" alt="" width="100%"></img>';
