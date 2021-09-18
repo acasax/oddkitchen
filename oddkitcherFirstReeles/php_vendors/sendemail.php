@@ -21,7 +21,7 @@ $user_class = new USER();
         if ($recaptcha->score >= 0.5) {
             if (isset($_REQUEST['name']) && isset($_REQUEST['email']) && isset($_REQUEST['message'])) {
 
-                $email_to = "info@theoddkitchen.com";
+                $email_to = "contact@theoddkitchen.com";
                 $email_subject = "Message from website";
 
 
