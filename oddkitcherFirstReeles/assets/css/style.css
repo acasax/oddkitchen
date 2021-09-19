@@ -906,6 +906,7 @@ div.aboutBG > img {
 
 #myCarousel>div>div>div>img {
     max-height: 104px;
+    padding-right: 55px;
 }
 
 .spooner {
