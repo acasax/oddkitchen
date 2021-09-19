@@ -1,19 +1,18 @@
 /*Preloader*/
 
 div#preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99999;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    background: black url("../img/Loading.gif") no-repeat center center;
-  }
-
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: black url("../img/Loading.gif") no-repeat center center;
+}
 
 .main {
-    background-image: url("../img/placeholderbackground.jpg");
+  background-image: url("../img/placeholderbackground.jpg");
   background-position: center;
   background-attachment: fixed;
   -o-background-size: cover;
@@ -23,45 +22,83 @@ div#preloader {
 }
 
 .body {
-    max-width: 1431px;
+  max-width: 1431px;
 }
 
 .section {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .headerText {
-    color: white;
-    font-size: 25px;
-    font-weight: lighter;
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 10px;
-    margin-bottom: 0;
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .headerImg {
-    width: 340px;
-    height: 75px;
+  width: 340px;
+  height: 75px;
 }
 
 .preloaderImg {
-    width: 534px;
+  width: 534px;
 }
 
 .preloaderText {
-    color: white;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 1.2;
-    margin: 0;
-    text-align: left;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
 }
 
 .paddingBottom {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .paddingTop {
-    padding-top: 100px;
+  padding-top: 100px;
 }
+
+.contactImg {
+  width: 620px;
+  height: 94px;
+  margin-bottom: 60px;
+}
+
+.formLabel {
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.formInput {
+  width: 100% !important;
+  font-size: 25px;
+  padding: 5px 0;
+  background: transparent;
+  border: 2px solid #b3b3b3;
+  border-radius: 10px;
+  color: white;
+}
+
+#contactForm {
+  width: 100% !important;
+}
+
+.btnSend {
+    margin-top: 30px;
+  }
+  
+  .btnSend button {
+    background: url("../img/send.png");
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-repeat: no-repeat;
+  }
