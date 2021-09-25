@@ -113,6 +113,13 @@ div#preloader {
   padding-left: 0 !important;
 }
 
+.error {
+  margin-top: 2px;
+  font-size: 17px;
+  color: red;
+  font-weight: 600;
+}
+
 @media (min-width: 1368px) and (max-width: 1600px) {
   .body {
     max-width: 1192px;
@@ -221,7 +228,58 @@ div#preloader {
   }
 
   .preloaderText {
-    font-size: 25px;
     text-align: center;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+  .body {
+    max-width: 600px;
+  }
+
+  .preloaderText {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .body {
+    max-width: 316px;
+  }
+
+  .headerText {
+    font-size: 25px;
+  }
+
+  .headerImg {
+    width: 250px;
+    height: 53px;
+  }
+
+  .preloaderImg {
+    width: 300px;
+  }
+
+  .preloaderText {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .contactImg {
+    width: 300px;
+    height: 45px;
+  }
+
+  .formLabel {
+    font-size: 17px;
+  }
+
+  .formInput {
+    font-size: 16px;
+  }
+
+  .btnSend {
+    margin-top: 15px;
   }
 }
