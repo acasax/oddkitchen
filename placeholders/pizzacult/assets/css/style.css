@@ -252,8 +252,8 @@ div#preloader {
   }
 
   .headerImg {
-    width: 250px;
-    height: 53px;
+    width: 205px;
+    height: 45px;
   }
 
   .preloaderImg {
@@ -269,6 +269,7 @@ div#preloader {
   .contactImg {
     width: 300px;
     height: 45px;
+    margin-bottom: 20px;
   }
 
   .formLabel {
@@ -284,10 +285,10 @@ div#preloader {
   }
 
   .paddingBottom {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   .paddingTop {
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
