@@ -1,294 +1,267 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
 /*Preloader*/
 
 div#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 99999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: black url("../img/Loading.gif") no-repeat center center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: black url("../img/Loading.gif") no-repeat center center;
 }
 
 .main {
-  background-image: url("../img/placeholderbackground.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: 100% 100%;
+    background-image: url("../img/placeholderbackground.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
 }
 
 .body {
-  max-width: 1431px;
+    max-width: 1431px;
 }
 
 .section {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .headerText {
-  color: white;
-  font-size: 25px;
-  font-weight: lighter;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 10px;
-  margin-bottom: 0;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .headerImg {
-  width: 340px;
-  height: 75px;
+    width: 340px;
+    height: 75px;
 }
 
 .preloaderImg {
-  width: 534px;
+    width: 534px;
 }
 
 .preloaderText {
-  color: white;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 0;
-  text-align: left;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
 }
 
 .paddingBottom {
-  padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .paddingTop {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 .contactImg {
-  width: 620px;
-  height: 94px;
-  margin-bottom: 60px;
+    width: 620px;
+    height: 94px;
+    margin-bottom: 60px;
 }
 
 .formLabel {
-  color: white;
-  font-size: 25px;
-  font-weight: 100;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .formInput {
-  width: 100% !important;
-  font-size: 25px;
-  padding: 5px 0;
-  background: transparent;
-  border: 2px solid #b3b3b3;
-  border-radius: 10px;
-  color: white;
+    width: 100% !important;
+    font-size: 25px;
+    padding: 5px 0;
+    background: transparent;
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    color: white;
 }
 
 #contactForm {
-  width: 100% !important;
+    width: 100% !important;
 }
 
 .btnSend {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .btnSend button {
-  background: url("../img/send.png");
-  width: 175px;
-  height: 50px;
-  border: none;
-  background-repeat: no-repeat;
+    background: url("../img/send.png");
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-repeat: no-repeat;
 }
 
 .marginFix {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .paddingFix {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .error {
-  margin-top: 2px;
-  font-size: 17px;
-  color: red;
-  font-weight: 600;
+    margin-top: 2px;
+    font-size: 17px;
+    color: red;
+    font-weight: 600;
 }
 
 @media (min-width: 1368px) and (max-width: 1600px) {
-  .body {
-    max-width: 1192px;
-  }
-
-  .headerText {
-    font-size: 21px;
-    padding-bottom: 8px;
-  }
-
-  .headerImg {
-    width: 283px;
-    height: 62px;
-  }
-
-  .preloaderImg {
-    width: 445px;
-  }
-
-  .preloaderText {
-    font-size: 25px;
-    line-height: 1;
-  }
-
-  .paddingBottom {
-    padding-bottom: 83px;
-  }
-
-  .paddingTop {
-    padding-top: 83px;
-  }
-
-  .contactImg {
-    width: 516px;
-    height: 78px;
-    margin-bottom: 50px;
-  }
-
-  .formLabel {
-    font-size: 21px;
-  }
-
-  .formInput {
-    font-size: 21px;
-  }
-
-  .btnSend {
-    margin-top: 25px;
-  }
+    .body {
+        max-width: 1192px;
+    }
+    .headerText {
+        font-size: 21px;
+        padding-bottom: 8px;
+    }
+    .headerImg {
+        width: 283px;
+        height: 62px;
+    }
+    .preloaderImg {
+        width: 445px;
+    }
+    .preloaderText {
+        font-size: 25px;
+        line-height: 1;
+    }
+    .paddingBottom {
+        padding-bottom: 83px;
+    }
+    .paddingTop {
+        padding-top: 83px;
+    }
+    .contactImg {
+        width: 516px;
+        height: 78px;
+        margin-bottom: 50px;
+    }
+    .formLabel {
+        font-size: 21px;
+    }
+    .formInput {
+        font-size: 21px;
+    }
+    .btnSend {
+        margin-top: 25px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1367px) {
-  .body {
-    max-width: 1017px;
-  }
-
-  .headerText {
-    font-size: 17px;
-    padding-bottom: 7px;
-  }
-
-  .headerImg {
-    width: 241px;
-    height: 52px;
-  }
-
-  .preloaderImg {
-    width: 379px;
-  }
-
-  .preloaderText {
-    font-size: 21px;
-    line-height: 1;
-  }
-
-  .paddingBottom {
-    padding-bottom: 70px;
-  }
-
-  .paddingTop {
-    padding-top: 70px;
-  }
-
-  .contactImg {
-    width: 440px;
-    height: 66px;
-    margin-bottom: 42px;
-  }
-
-  .formLabel {
-    font-size: 18px;
-  }
-
-  .formInput {
-    font-size: 18px;
-  }
-
-  .btnSend {
-    margin-top: 21px;
-  }
+    .body {
+        max-width: 1017px;
+    }
+    .headerText {
+        font-size: 17px;
+        padding-bottom: 7px;
+    }
+    .headerImg {
+        width: 241px;
+        height: 52px;
+    }
+    .preloaderImg {
+        width: 379px;
+    }
+    .preloaderText {
+        font-size: 21px;
+        line-height: 1;
+    }
+    .paddingBottom {
+        padding-bottom: 70px;
+    }
+    .paddingTop {
+        padding-top: 70px;
+    }
+    .contactImg {
+        width: 440px;
+        height: 66px;
+        margin-bottom: 42px;
+    }
+    .formLabel {
+        font-size: 18px;
+    }
+    .formInput {
+        font-size: 18px;
+    }
+    .btnSend {
+        margin-top: 21px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .body {
-    max-width: 895px;
-  }
-
-  .preloaderText {
-    text-align: center;
-  }
+    .body {
+        max-width: 895px;
+    }
+    .preloaderText {
+        text-align: center;
+    }
 }
 
 @media (min-width: 450px) and (max-width: 768px) {
-  .body {
-    max-width: 600px;
-  }
-
-  .preloaderText {
-    text-align: center;
-  }
+    .body {
+        max-width: 600px;
+    }
+    .preloaderText {
+        text-align: center;
+    }
 }
 
 @media (max-width: 450px) {
-  .body {
-    max-width: 316px;
-  }
-
-  .headerText {
-    font-size: 25px;
-  }
-
-  .headerImg {
-    width: 205px;
-    height: 45px;
-  }
-
-  .preloaderImg {
-    width: 300px;
-  }
-
-  .preloaderText {
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-  }
-
-  .contactImg {
-    width: 300px;
-    height: 45px;
-    margin-bottom: 20px;
-  }
-
-  .formLabel {
-    font-size: 17px;
-  }
-
-  .formInput {
-    font-size: 16px;
-  }
-
-  .btnSend {
-    margin-top: 15px;
-  }
-
-  .paddingBottom {
-    padding-bottom: 15px;
-  }
-
-  .paddingTop {
-    padding-top: 15px;
-  }
+    .body {
+        max-width: 316px;
+    }
+    .headerText {
+        font-size: 25px;
+    }
+    .headerImg {
+        width: 205px;
+        height: 45px;
+    }
+    .preloaderImg {
+        width: 300px;
+    }
+    .preloaderText {
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .contactImg {
+        width: 300px;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    .formLabel {
+        font-size: 17px;
+    }
+    .formInput {
+        font-size: 16px;
+    }
+    .btnSend {
+        margin-top: 15px;
+    }
+    .paddingBottom {
+        padding-bottom: 15px;
+    }
+    .paddingTop {
+        padding-top: 50px;
+    }
 }
