@@ -576,7 +576,7 @@ div#preloader {
 /*Kontakt */
 
 .contactBg {
-  background-image: url(../img/contact/contactpozadinacropped.jpg);
+  background-image: url(../img/contact/contactpozadinacropped.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -589,7 +589,7 @@ div#preloader {
 
 @media (max-width: 1200px) {
   .contactBg {
-    background-image: url(../img/contact/contactpozadina.jpg);
+    background-image: url(../img/contact/contactpozadina.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -904,9 +904,9 @@ div.aboutBG > img {
   margin-bottom: 70px !important;
 }
 
-#myCarousel>div>div>div>img {
-    max-height: 104px;
-    padding-right: 55px;
+#myCarousel > div > div > div > img {
+  max-height: 104px;
+  padding-right: 55px;
 }
 
 .spooner {
