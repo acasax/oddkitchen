@@ -230,7 +230,8 @@ div#preloader {
         max-width: 316px;
     }
     .headerText {
-        font-size: 25px;
+        font-size: 20px;
+        font-family: 'Montserrat' sans-serif;
     }
     .headerImg {
         width: 205px;
@@ -251,17 +252,19 @@ div#preloader {
     }
     .formLabel {
         font-size: 17px;
+        font-family: 'Montserrat' sans-serif;
     }
     .formInput {
         font-size: 16px;
+        font-family: 'Montserrat' sans-serif;
     }
     .btnSend {
         margin-top: 15px;
     }
     .paddingBottom {
-        padding-bottom: 15px;
+        padding-bottom: 0;
     }
     .paddingTop {
-        padding-top: 50px;
+        padding-top: 35px;
     }
 }
