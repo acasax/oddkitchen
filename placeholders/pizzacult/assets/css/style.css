@@ -145,15 +145,15 @@ div#preloader {
         line-height: 1;
     }
     .paddingBottom {
-        padding-bottom: 83px;
+        padding-bottom: 30px;
     }
     .paddingTop {
-        padding-top: 83px;
+        padding-top: 30px;
     }
     .contactImg {
         width: 516px;
         height: 78px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .formLabel {
         font-size: 21px;
@@ -186,15 +186,15 @@ div#preloader {
         line-height: 1;
     }
     .paddingBottom {
-        padding-bottom: 70px;
+        padding-bottom: 20px;
     }
     .paddingTop {
-        padding-top: 70px;
+        padding-top: 20px;
     }
     .contactImg {
         width: 440px;
         height: 66px;
-        margin-bottom: 42px;
+        margin-bottom: 15px;
     }
     .formLabel {
         font-size: 18px;
