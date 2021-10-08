@@ -1,4 +1,4 @@
-var result = detect.parse(navigator.userAgent);
+ar result = detect.parse(navigator.userAgent);
 
 var pcVideo = document.getElementById("videoPC");
 var mobVideo = document.getElementById("videoMOB");
