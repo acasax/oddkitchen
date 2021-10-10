@@ -241,7 +241,7 @@ div#preloader {
     }
     .preloaderImg {
         width: 300px;
-        padding: 0 !important;
+        padding: 0 ;
     }
     .preloaderText {
         font-size: 20px;
