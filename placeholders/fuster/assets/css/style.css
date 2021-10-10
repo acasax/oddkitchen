@@ -267,4 +267,8 @@ div#preloader {
     .paddingTop {
         padding-top: 35px;
     }
+    .verticalImg {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
 }
