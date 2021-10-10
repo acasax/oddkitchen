@@ -50,7 +50,8 @@ div#preloader {
 }
 
 .preloaderImg {
-    width: 534px;
+    width: 100%;
+    padding: 0 10%;
 }
 
 .preloaderText {
@@ -60,6 +61,7 @@ div#preloader {
     line-height: 1.2;
     margin: 0;
     text-align: left;
+    padding: 0 10%;
 }
 
 .paddingBottom {
@@ -137,9 +139,9 @@ div#preloader {
         width: 283px;
         height: 62px;
     }
-    .preloaderImg {
+    /*.preloaderImg {
         width: 445px;
-    }
+    }*/
     .preloaderText {
         font-size: 25px;
         line-height: 1;
@@ -178,9 +180,9 @@ div#preloader {
         width: 241px;
         height: 52px;
     }
-    .preloaderImg {
+    /*.preloaderImg {
         width: 379px;
-    }
+    }*/
     .preloaderText {
         font-size: 21px;
         line-height: 1;
@@ -239,11 +241,13 @@ div#preloader {
     }
     .preloaderImg {
         width: 300px;
+        padding: 0 !important;
     }
     .preloaderText {
         font-size: 20px;
         line-height: 1.2;
         text-align: center;
+        padding: 0 !important;
     }
     .contactImg {
         width: 300px;
