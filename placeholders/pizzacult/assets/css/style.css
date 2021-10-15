@@ -50,8 +50,7 @@ div#preloader {
 }
 
 .preloaderImg {
-    width: 100%;
-    padding: 0 10%;
+    width: 534px;
 }
 
 .preloaderText {
@@ -61,7 +60,6 @@ div#preloader {
     line-height: 1.2;
     margin: 0;
     text-align: left;
-    padding: 0 10%;
 }
 
 .paddingBottom {
@@ -139,23 +137,23 @@ div#preloader {
         width: 283px;
         height: 62px;
     }
-    /*.preloaderImg {
+    .preloaderImg {
         width: 445px;
-    }*/
+    }
     .preloaderText {
         font-size: 25px;
         line-height: 1;
     }
     .paddingBottom {
-        padding-bottom: 30px;
+        padding-bottom: 83px;
     }
     .paddingTop {
-        padding-top: 30px;
+        padding-top: 83px;
     }
     .contactImg {
         width: 516px;
         height: 78px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .formLabel {
         font-size: 21px;
@@ -180,23 +178,23 @@ div#preloader {
         width: 241px;
         height: 52px;
     }
-    /*.preloaderImg {
+    .preloaderImg {
         width: 379px;
-    }*/
+    }
     .preloaderText {
         font-size: 21px;
         line-height: 1;
     }
     .paddingBottom {
-        padding-bottom: 20px;
+        padding-bottom: 70px;
     }
     .paddingTop {
-        padding-top: 20px;
+        padding-top: 70px;
     }
     .contactImg {
         width: 440px;
         height: 66px;
-        margin-bottom: 15px;
+        margin-bottom: 42px;
     }
     .formLabel {
         font-size: 18px;
@@ -241,13 +239,11 @@ div#preloader {
     }
     .preloaderImg {
         width: 300px;
-        padding: 0 ;
     }
     .preloaderText {
         font-size: 20px;
         line-height: 1.2;
         text-align: center;
-        padding: 0 !important;
     }
     .contactImg {
         width: 300px;
@@ -270,9 +266,5 @@ div#preloader {
     }
     .paddingTop {
         padding-top: 35px;
-    }
-    .verticalImg {
-        padding-bottom: 30px;
-        padding-top: 30px;
     }
 }

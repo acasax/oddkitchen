@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Bangers', cursive;
 }
 
 
@@ -37,9 +37,9 @@ div#preloader {
 
 .headerText {
     color: white;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: lighter;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Bangers', cursive;
     padding-bottom: 10px;
     margin-bottom: 0;
 }
@@ -56,12 +56,13 @@ div#preloader {
 
 .preloaderText {
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 1.2;
     margin: 0;
     text-align: left;
     padding: 0 10%;
+    font-family: 'Bangers', cursive;
 }
 
 .paddingBottom {
@@ -132,7 +133,7 @@ div#preloader {
         max-width: 1192px;
     }
     .headerText {
-        font-size: 21px;
+        font-size: 30px;
         padding-bottom: 8px;
     }
     .headerImg {
@@ -143,7 +144,7 @@ div#preloader {
         width: 445px;
     }*/
     .preloaderText {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 1;
     }
     .paddingBottom {
@@ -173,18 +174,15 @@ div#preloader {
         max-width: 1017px;
     }
     .headerText {
-        font-size: 17px;
+        font-size: 20px;
         padding-bottom: 7px;
     }
     .headerImg {
         width: 241px;
         height: 52px;
     }
-    /*.preloaderImg {
-        width: 379px;
-    }*/
     .preloaderText {
-        font-size: 21px;
+        font-size: 25px;
         line-height: 1;
     }
     .paddingBottom {
@@ -232,8 +230,8 @@ div#preloader {
         max-width: 316px;
     }
     .headerText {
-        font-size: 20px;
-        font-family: 'Montserrat' sans-serif;
+        font-size: 22px;
+        font-family: 'Bangers', cursive;
     }
     .headerImg {
         width: 205px;
@@ -241,7 +239,7 @@ div#preloader {
     }
     .preloaderImg {
         width: 300px;
-        padding: 0 ;
+        padding: 0;
     }
     .preloaderText {
         font-size: 20px;
@@ -255,12 +253,12 @@ div#preloader {
         margin-bottom: 20px;
     }
     .formLabel {
-        font-size: 17px;
-        font-family: 'Montserrat' sans-serif;
+        font-size: 14px;
+        font-family: 'Bangers', cursive;
     }
     .formInput {
-        font-size: 16px;
-        font-family: 'Montserrat' sans-serif;
+        font-size: 13px;
+        font-family: 'Bangers', cursive;
     }
     .btnSend {
         margin-top: 15px;
