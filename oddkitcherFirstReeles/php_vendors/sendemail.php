@@ -1,8 +1,7 @@
 <?php
 include "class.user.php";
+
 $user_class = new USER();
-
-
 
     if (isset($_REQUEST['recaptcha_response'])) {
 
@@ -43,12 +42,14 @@ $user_class = new USER();
                 //$email_message .= "Usluga: " . clean_string($service) . "\n";
                 $email_message .= "Message: " . clean_string($message) . "\n";
 
-
+                $email_message = "<div>" . $email_message . "</div>";
 
                 $headers = 'From: ' . $email . "\r\n" .
                     'Reply-To: ' . $email . "\r\n" .
                     'X-Mailer: PHP/' . phpversion();
-                if (@mail($email_to, $email_subject, $email_message, $headers)) {
+                //if (@mail($email_to, $email_subject, $email_message, $headers)) {
+                    $send = $user_class->send_mail($email, $email_message, $email_subject);
+                if($send){
                     $user_class->returnJSON("OK","Message sent.");
                     return;
                 } else {
