@@ -1,5 +1,5 @@
 body {
-    font-family: 'Special Elite', cursive;
+    font-family: 'Nanum Brush Script', cursive;
 }
 
 
@@ -37,9 +37,9 @@ div#preloader {
 
 .headerText {
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: lighter;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Nanum Brush Script', cursive;
     padding-bottom: 10px;
     margin-bottom: 0;
 }
@@ -56,13 +56,13 @@ div#preloader {
 
 .preloaderText {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 1.2;
     margin: 0;
     text-align: left;
     padding: 0 10%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Nanum Brush Script', cursive;
 }
 
 .paddingBottom {
@@ -140,11 +140,8 @@ div#preloader {
         width: 283px;
         height: 62px;
     }
-    /*.preloaderImg {
-        width: 445px;
-    }*/
     .preloaderText {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 1;
     }
     .paddingBottom {
@@ -182,7 +179,7 @@ div#preloader {
         height: 52px;
     }
     .preloaderText {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 1;
     }
     .paddingBottom {
@@ -230,8 +227,8 @@ div#preloader {
         max-width: 316px;
     }
     .headerText {
-        font-size: 20px;
-        font-family: 'Special Elite', cursive;
+        font-size: 25px;
+        font-family: 'Nanum Brush Script', cursive;
     }
     .headerImg {
         width: 205px;
@@ -242,7 +239,7 @@ div#preloader {
         padding: 0;
     }
     .preloaderText {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 1.2;
         text-align: center;
         padding: 0 !important;
@@ -253,12 +250,12 @@ div#preloader {
         margin-bottom: 20px;
     }
     .formLabel {
-        font-size: 12px;
-        font-family: 'Special Elite', cursive;
+        font-size: 17px;
+        font-family: 'Nanum Brush Script', cursive;
     }
     .formInput {
-        font-size: 11px;
-        font-family: 'Special Elite', cursive;
+        font-size: 16px;
+        font-family: 'Nanum Brush Script', cursive;
     }
     .btnSend {
         margin-top: 15px;

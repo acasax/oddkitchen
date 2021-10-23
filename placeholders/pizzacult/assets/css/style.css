@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Nanum Brush Script', cursive;
 }
 
 
@@ -37,9 +37,9 @@ div#preloader {
 
 .headerText {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: lighter;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Nanum Brush Script', cursive;
     padding-bottom: 10px;
     margin-bottom: 0;
 }
@@ -50,16 +50,19 @@ div#preloader {
 }
 
 .preloaderImg {
-    width: 534px;
+    width: 100%;
+    padding: 0 10%;
 }
 
 .preloaderText {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 1.2;
     margin: 0;
     text-align: left;
+    padding: 0 10%;
+    font-family: 'Nanum Brush Script', cursive;
 }
 
 .paddingBottom {
@@ -130,30 +133,27 @@ div#preloader {
         max-width: 1192px;
     }
     .headerText {
-        font-size: 21px;
+        font-size: 30px;
         padding-bottom: 8px;
     }
     .headerImg {
         width: 283px;
         height: 62px;
     }
-    .preloaderImg {
-        width: 445px;
-    }
     .preloaderText {
-        font-size: 25px;
+        font-size: 35px;
         line-height: 1;
     }
     .paddingBottom {
-        padding-bottom: 83px;
+        padding-bottom: 30px;
     }
     .paddingTop {
-        padding-top: 83px;
+        padding-top: 30px;
     }
     .contactImg {
         width: 516px;
         height: 78px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .formLabel {
         font-size: 21px;
@@ -171,30 +171,27 @@ div#preloader {
         max-width: 1017px;
     }
     .headerText {
-        font-size: 17px;
+        font-size: 20px;
         padding-bottom: 7px;
     }
     .headerImg {
         width: 241px;
         height: 52px;
     }
-    .preloaderImg {
-        width: 379px;
-    }
     .preloaderText {
-        font-size: 21px;
+        font-size: 30px;
         line-height: 1;
     }
     .paddingBottom {
-        padding-bottom: 70px;
+        padding-bottom: 20px;
     }
     .paddingTop {
-        padding-top: 70px;
+        padding-top: 20px;
     }
     .contactImg {
         width: 440px;
         height: 66px;
-        margin-bottom: 42px;
+        margin-bottom: 15px;
     }
     .formLabel {
         font-size: 18px;
@@ -230,8 +227,8 @@ div#preloader {
         max-width: 316px;
     }
     .headerText {
-        font-size: 20px;
-        font-family: 'Montserrat' sans-serif;
+        font-size: 25px;
+        font-family: 'Nanum Brush Script', cursive;
     }
     .headerImg {
         width: 205px;
@@ -239,11 +236,13 @@ div#preloader {
     }
     .preloaderImg {
         width: 300px;
+        padding: 0;
     }
     .preloaderText {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 1.2;
         text-align: center;
+        padding: 0 !important;
     }
     .contactImg {
         width: 300px;
@@ -252,11 +251,11 @@ div#preloader {
     }
     .formLabel {
         font-size: 17px;
-        font-family: 'Montserrat' sans-serif;
+        font-family: 'Nanum Brush Script', cursive;
     }
     .formInput {
         font-size: 16px;
-        font-family: 'Montserrat' sans-serif;
+        font-family: 'Nanum Brush Script', cursive;
     }
     .btnSend {
         margin-top: 15px;
@@ -266,5 +265,9 @@ div#preloader {
     }
     .paddingTop {
         padding-top: 35px;
+    }
+    .verticalImg {
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
 }

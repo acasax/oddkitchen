@@ -56,7 +56,7 @@ div#preloader {
 
 .preloaderText {
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 1.2;
     margin: 0;
@@ -140,11 +140,8 @@ div#preloader {
         width: 283px;
         height: 62px;
     }
-    /*.preloaderImg {
-        width: 445px;
-    }*/
     .preloaderText {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 1;
     }
     .paddingBottom {
@@ -182,7 +179,7 @@ div#preloader {
         height: 52px;
     }
     .preloaderText {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 1;
     }
     .paddingBottom {
@@ -242,7 +239,7 @@ div#preloader {
         padding: 0;
     }
     .preloaderText {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 1.2;
         text-align: center;
         padding: 0 !important;
