@@ -1,7 +1,9 @@
 <?php
 
-require_once "mailer/PHPMailer-master/class.phpmailer.php";
-include "mailer/PHPMailer-master/class.smtp.php";
+define('SITE_ROOT', __DIR__);
+require SITE_ROOT."/component/vendor/autoload.php";
+require_once SITE_ROOT . '/mailer/PHPMailer-master/class.phpmailer.php';
+include SITE_ROOT . '/mailer/PHPMailer-master/class.smtp.php';
 
 class USER {
 
@@ -27,29 +29,23 @@ class USER {
     {
         $mail = new PHPMailer();
         $mail->IsSMTP();
-        $mail->SMTPOptions = array(
-            'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
-        );
-        $mail->CharSet = 'UTF-8';
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = "ssl";
-        $mail->Host = "p3plzcpnl464866.prod.phx3.secureserver.net";
-        $mail->Port = 465;
-        //$mail->Host = "smtp.gmail.com";
-        //$mail->Port = 465;
+        $mail->SMTPSecure = "STARTTLS";
+        $mail->Host = "smtp.office365.com";
+        $mail->Port = 587;
+       // $mail->Host = "smtp.gmail.com";
+       // $mail->Port = 25;
         $mail->AddAddress("contact@theoddkitchen.com"); //email unesi tvoj email
+
         $mail->Username = "contact@theoddkitchen.com"; //email
         $mail->Password = "mousePad123!"; //password
+
         $mail->SetFrom($email, "");
         $mail->AddReplyTo($email, "");
-        $mail->Subject = $subject;
-        $mail->MsgHTML($message);
+        $mail->Subject = 'Mesage from site';
+        $mail->Body = $message;
 
-        if(!$mail->Send()){
+        if(!$mail->send()){
             throw new Exception("Can't send mail!");
             return false;
         }else{
