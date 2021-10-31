@@ -27,23 +27,24 @@ class USER {
 
     function send_mail($email, $message, $subject)
     {
-        $mail = new PHPMailer();
+        $mail = new PHPMailer();    
         $mail->IsSMTP();
+        $mail->SMTPDebug  = 2;
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = "STARTTLS";
+        $mail->SMTPSecure = "tls";
         $mail->Host = "smtp.office365.com";
         $mail->Port = 587;
-       // $mail->Host = "smtp.gmail.com";
-       // $mail->Port = 25;
-        $mail->AddAddress("contact@theoddkitchen.com"); //email unesi tvoj email
+   
+       
 
-        $mail->Username = "contact@theoddkitchen.com"; //email
-        $mail->Password = "mousePad123!"; //password
-
+        $mail->Username = "contact@theoddkitchen.com";
+        $mail->Password = "mousePad123!";
+        $mail->AddAddress("contact@theoddkitchen.com", "Oddkitchen"); 
         $mail->SetFrom($email, "");
         $mail->AddReplyTo($email, "");
         $mail->Subject = 'Mesage from site';
-        $mail->Body = $message;
+        $mail->isHTML(true);
+        $mail->MsgHTML($message);
 
         if(!$mail->send()){
             throw new Exception("Can't send mail!");
