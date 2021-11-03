@@ -4,6 +4,7 @@ define('SITE_ROOT', __DIR__);
 require SITE_ROOT."/component/vendor/autoload.php";
 require_once SITE_ROOT . '/mailer/PHPMailer-master/class.phpmailer.php';
 include SITE_ROOT . '/mailer/PHPMailer-master/class.smtp.php';
+require SITE_ROOT . '/mailer/PHPMailer-master/PHPMailerAutoload.php';
 
 class USER {
 
@@ -27,7 +28,7 @@ class USER {
 
     function send_mail($email, $message, $subject)
     {
-        $mail = new PHPMailer();    
+       /* $mail = new PHPMailer();    
         $mail->IsSMTP();
         $mail->SMTPDebug  = 2;
         $mail->SMTPAuth = true;
@@ -51,6 +52,31 @@ class USER {
             return false;
         }else{
             return true;
+        }*/
+
+        $mail = new PHPMailer(true);
+        $mail->isSMTP();
+        $mail->Host = 'smtp.office365.com';
+        $mail->Port       = 587;
+        $mail->SMTPSecure = 'tls';
+        $mail->SMTPAuth   = true;
+        $mail->Username = "contact@theoddkitchen.com";
+        $mail->Password = "mousePad123!";
+        $mail->SetFrom($email, 'FromEmail');
+        $mail->addAddress($email, 'ToEmail');
+        //$mail->SMTPDebug  = 3;
+        //$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
+        $mail->IsHTML(true);
+
+        $mail->Subject = 'Mesage from site';
+        $mail->Body    = $message;
+        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+        if(!$mail->send()) {
+            echo 'Message could not be sent.';
+            echo 'Mailer Error: ' . $mail->ErrorInfo;
+        } else {
+            echo 'Message has been sent';
         }
     }
 
