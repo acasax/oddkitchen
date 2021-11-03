@@ -64,6 +64,8 @@ class USER {
         $mail->Password = "mousePad123!";
         $mail->SetFrom($email, 'FromEmail');
         $mail->addAddress($email, 'ToEmail');
+        $mail->SMTPDebug = 4; 
+        $mail->Mailer = "smtp";
         //$mail->SMTPDebug  = 3;
         //$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
         $mail->IsHTML(true);
