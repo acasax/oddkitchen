@@ -213,7 +213,7 @@ body {
 }
 
 .familyFooter {
-  margin-bottom: 44px;
+  padding-bottom: 44px;
 }
 
 .locationFooter {
@@ -222,7 +222,7 @@ body {
 
 .familyFooter > p {
   margin-top: 15px;
-  margin-bottom: 44px;
+  padding-bottom: 44px;
   text-align: center;
 }
 
@@ -1409,7 +1409,7 @@ footer > p > a {
   }
   .familyFooter > p {
     margin-top: 15px;
-    margin-bottom: 27px;
+    padding-bottom: 27px;
     text-align: center;
   }
   .locationFooter > p {
@@ -1440,7 +1440,7 @@ footer > p > a {
   }
   .familyFooter > p {
     margin-top: 15px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     text-align: center;
   }
   .locationFooter > p {
@@ -1682,4 +1682,61 @@ footer > p > a {
 .turnDeviceNotification {
   background-image: url("../img/lock.png");
   background-size: cover;
+}
+
+.footerInstagramIcon {
+  color: white !important;
+  font-size: 29px;
+}
+
+.footerTextCenter {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 0 !important;
+}
+
+.footerTextCenter a {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 0 !important;
+}
+
+.footerTextEnd {
+  color: white;
+  font-size: 11px;
+  text-align: end;
+  margin-bottom: 0;
+}
+
+.footerPaddingFix {
+  padding: 0 !important;
+}
+
+.footerAboutInstagramIcon {
+  color: black !important;
+  font-size: 29px;
+}
+
+.footerAboutTextCenter {
+  color: black;
+  font-size: 17px;
+  margin-bottom: 0 !important;
+}
+
+.footerAboutTextCenter a {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 0 !important;
+}
+
+.footerAboutTextEnd {
+  color: black;
+  font-size: 11px;
+  text-align: end;
+  margin-bottom: 0;
+}
+
+.footerPadding {
+  padding-right: 31px;
+  padding-left: 31px;
 }
