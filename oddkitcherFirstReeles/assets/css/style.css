@@ -1693,12 +1693,14 @@ footer > p > a {
   color: white;
   font-size: 17px;
   margin-bottom: 0 !important;
+  text-align: center;
 }
 
 .footerTextCenter a {
   color: white;
   font-size: 17px;
   margin-bottom: 0 !important;
+  text-align: center;
 }
 
 .footerTextEnd {
@@ -1721,6 +1723,7 @@ footer > p > a {
   color: black;
   font-size: 17px;
   margin-bottom: 0 !important;
+  text-align: center;      
 }
 
 .footerAboutTextCenter a {
@@ -1739,4 +1742,210 @@ footer > p > a {
 .footerPadding {
   padding-right: 31px;
   padding-left: 31px;
+}
+
+@media (min-width: 1368px) and (max-width: 1600px) {
+  .footerInstagramIcon {
+    font-size: 24px !important;
+  }
+  
+  .footerTextCenter {
+    font-size: 14px !important;
+  }
+  
+  .footerTextCenter a {
+    font-size: 14px !important;
+  }
+  
+  .footerTextEnd {
+    font-size: 10px !important;
+  }
+
+  .footerAboutInstagramIcon {
+    font-size: 24px !important;
+  }
+  
+  .footerAboutTextCenter {
+    font-size: 14px !important;
+  }
+  
+  .footerAboutTextCenter a {
+    font-size: 14px !important;
+  }
+  
+  .footerAboutTextEnd {
+    font-size: 10px !important;
+    text-align: center !important;
+  }
+  
+  .footerPadding {
+    padding-right: 26px !important;
+    padding-left: 26px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1367px) {
+  .footerInstagramIcon {
+    font-size: 20,5px !important;
+  }
+  
+  .footerTextCenter {
+    font-size: 12px !important;
+  }
+  
+  .footerTextCenter a {
+    font-size: 12px !important;
+  }
+  
+  .footerTextEnd {
+    font-size: 18.5px !important;
+  }
+
+  .footerAboutInstagramIcon {
+    font-size: 20.5px !important;
+  }
+  
+  .footerAboutTextCenter {
+    font-size: 12px !important;
+  }
+  
+  .footerAboutTextCenter a {
+    font-size: 12px !important;
+  }
+  
+  .footerAboutTextEnd {
+    font-size: 8.5px !important;
+  }
+  
+  .footerPadding {
+    padding-right: 22px !important;
+    padding-left: 22px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footerInstagramIcon {
+    font-size: 13px !important;
+  }
+  
+  .footerTextCenter {
+    font-size: 10px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  .footerTextCenter a {
+    font-size: 10px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  .footerTextEnd {
+    font-size: 8px !important;
+  }
+
+  .footerAboutInstagramIcon {
+    font-size: 13 !important;
+  }
+  
+  .footerAboutTextCenter {
+    font-size: 10px !important;
+  }
+  
+  .footerAboutTextCenter a {
+    font-size: 10px !important;
+  }
+  
+  .footerAboutTextEnd {
+    font-size: 8px !important;
+  }
+  
+  .footerPadding {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .footerInstagramIcon {
+    font-size: 13px !important;
+  }
+  
+  .footerTextCenter {
+    font-size: 10px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  .footerTextCenter a {
+    font-size: 10px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  .footerTextEnd {
+    font-size: 8px !important;
+    text-align: center !important;
+  }
+  
+  .footerAboutInstagramIcon {
+    font-size: 10px !important;
+  }
+  
+  .footerAboutTextCenter {
+    font-size: 8px !important;
+  }
+  
+  .footerAboutTextCenter a {
+    font-size: 8px !important;
+  }
+  
+  .footerAboutTextEnd {
+    font-size: 7px !important;
+    text-align: center !important;
+  }
+  
+  .footerPadding {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .footerInstagramIcon {
+    font-size: 13px !important;
+  }
+  
+  .footerTextCenter {
+    font-size: 10px !important;
+    padding-bottom: 3px !important;
+  }
+  
+  .footerTextCenter a {
+    font-size: 10px !important;
+    padding-bottom: 3px !important;
+  }
+  
+  .footerTextEnd {
+    font-size: 8px !important;
+    text-align: center !important;
+  }
+  
+  .footerAboutInstagramIcon {
+    font-size: 10px !important;
+  }
+  
+  .footerAboutTextCenter {
+    font-size: 8px !important;
+  }
+  
+  .footerAboutTextCenter a {
+    font-size: 8px !important;
+  }
+  
+  .footerAboutTextEnd {
+    font-size: 7px !important;
+    text-align: center !important;
+  }
+  
+  .footerPadding {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
 }
