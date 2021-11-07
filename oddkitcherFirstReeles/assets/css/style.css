@@ -1710,6 +1710,10 @@ footer > p > a {
   margin-bottom: 0;
 }
 
+.footerTextEnd a {
+  color: white;
+}
+
 .footerPaddingFix {
   padding: 0 !important;
 }
@@ -1727,7 +1731,7 @@ footer > p > a {
 }
 
 .footerAboutTextCenter a {
-  color: white;
+  color: black !important;
   font-size: 17px;
   margin-bottom: 0 !important;
 }
@@ -1737,6 +1741,10 @@ footer > p > a {
   font-size: 11px;
   text-align: end;
   margin-bottom: 0;
+}
+
+.footerAboutTextEnd a {
+  color: black !important;
 }
 
 .footerPadding {
@@ -1947,5 +1955,108 @@ footer > p > a {
   .footerPadding {
     padding-right: 12px !important;
     padding-left: 12px !important;
+  }
+}
+
+
+/*Police and terms */
+
+.pptHeader {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.pptHeader2 {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.pptText {
+  color: white;
+  font-size: 17px;
+}
+
+@media (min-width: 1368px) and (max-width: 1600px) {
+  .pptHeader {
+    font-size: 21px;
+    margin-bottom: 13px;
+  }
+  
+  .pptHeader2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  
+  .pptText {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1367px) {
+  .pptHeader {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .pptHeader2 {
+    font-size: 16px;
+    margin-bottom: 9px;
+  }
+  
+  .pptText {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .pptHeader {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  
+  .pptHeader2 {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .pptText {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .pptHeader {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  
+  .pptHeader2 {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .pptText {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pptHeader {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  
+  .pptHeader2 {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .pptText {
+    font-size: 9px;
   }
 }
