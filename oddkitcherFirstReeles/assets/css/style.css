@@ -1371,6 +1371,7 @@ footer > p {
 
 .homeFooter {
   margin-bottom: 44px;
+  padding-bottom: 44px;
 }
 
 footer > p > a {
@@ -2027,6 +2028,11 @@ footer > p > a {
   .pptText {
     font-size: 9px;
   }
+
+  .pptContainer {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -2043,6 +2049,11 @@ footer > p > a {
   .pptText {
     font-size: 9px;
   }
+
+  .pptContainer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2058,5 +2069,10 @@ footer > p > a {
   
   .pptText {
     font-size: 9px;
+  }
+
+  .pptContainer {
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
 }
