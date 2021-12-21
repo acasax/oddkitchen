@@ -10,6 +10,10 @@ select:focus {
   outline: none !important;
 }
 
+a:hover{
+  color: red !important;
+}
+
 .aboutHTML {
   background-color: white;
 }
@@ -1372,6 +1376,7 @@ footer > p {
 .homeFooter {
   margin-bottom: 44px;
   padding-bottom: 44px;
+  padding: 18px 1rem !important
 }
 
 footer > p > a {
@@ -1688,6 +1693,7 @@ footer > p > a {
 .footerInstagramIcon {
   color: white !important;
   font-size: 29px;
+  margin-left: 13px;
 }
 
 .footerTextCenter {
@@ -1709,10 +1715,19 @@ footer > p > a {
   font-size: 11px;
   text-align: end;
   margin-bottom: 0;
+  margin-right: 13px;
+}
+
+.footerTextEnd:hover {
+  color: red;
 }
 
 .footerTextEnd a {
   color: white;
+}
+
+.footerTextEnd a:hover {
+  color: red;
 }
 
 .footerPaddingFix {
@@ -1722,6 +1737,7 @@ footer > p > a {
 .footerAboutInstagramIcon {
   color: black !important;
   font-size: 29px;
+  margin-left: 13px;
 }
 
 .footerAboutTextCenter {
@@ -1742,6 +1758,7 @@ footer > p > a {
   font-size: 11px;
   text-align: end;
   margin-bottom: 0;
+  margin-right: 13px;
 }
 
 .footerAboutTextEnd a {
@@ -1784,7 +1801,7 @@ footer > p > a {
   
   .footerAboutTextEnd {
     font-size: 10px !important;
-    text-align: center !important;
+    text-align: end !important;
   }
   
   .footerPadding {
