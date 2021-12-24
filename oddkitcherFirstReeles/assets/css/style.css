@@ -10,7 +10,7 @@ select:focus {
   outline: none !important;
 }
 
-a:hover{
+a:hover {
   color: red !important;
 }
 
@@ -1376,7 +1376,7 @@ footer > p {
 .homeFooter {
   margin-bottom: 44px;
   padding-bottom: 44px;
-  padding: 18px 1rem !important
+  padding: 18px 1rem !important;
 }
 
 footer > p > a {
@@ -1631,7 +1631,7 @@ footer > p > a {
 @media (max-width: 576px) {
   .locationheight {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 140px;
   }
   .locationParagraf {
     font-family: "Montserrat", sans-serif;
@@ -1672,7 +1672,7 @@ footer > p > a {
     height: auto;
   }
   .locationFooter {
-    margin-bottom: 0 !important;
+    padding-bottom: 15px;
   }
 }
 
@@ -1744,7 +1744,7 @@ footer > p > a {
   color: black;
   font-size: 17px;
   margin-bottom: 0 !important;
-  text-align: center;      
+  text-align: center;
 }
 
 .footerAboutTextCenter a {
@@ -1774,15 +1774,15 @@ footer > p > a {
   .footerInstagramIcon {
     font-size: 24px !important;
   }
-  
+
   .footerTextCenter {
     font-size: 14px !important;
   }
-  
+
   .footerTextCenter a {
     font-size: 14px !important;
   }
-  
+
   .footerTextEnd {
     font-size: 10px !important;
   }
@@ -1790,20 +1790,20 @@ footer > p > a {
   .footerAboutInstagramIcon {
     font-size: 24px !important;
   }
-  
+
   .footerAboutTextCenter {
     font-size: 14px !important;
   }
-  
+
   .footerAboutTextCenter a {
     font-size: 14px !important;
   }
-  
+
   .footerAboutTextEnd {
     font-size: 10px !important;
     text-align: end !important;
   }
-  
+
   .footerPadding {
     padding-right: 26px !important;
     padding-left: 26px !important;
@@ -1812,17 +1812,17 @@ footer > p > a {
 
 @media (min-width: 1200px) and (max-width: 1367px) {
   .footerInstagramIcon {
-    font-size: 20,5px !important;
+    font-size: 20, 5px !important;
   }
-  
+
   .footerTextCenter {
     font-size: 12px !important;
   }
-  
+
   .footerTextCenter a {
     font-size: 12px !important;
   }
-  
+
   .footerTextEnd {
     font-size: 18.5px !important;
   }
@@ -1830,19 +1830,19 @@ footer > p > a {
   .footerAboutInstagramIcon {
     font-size: 20.5px !important;
   }
-  
+
   .footerAboutTextCenter {
     font-size: 12px !important;
   }
-  
+
   .footerAboutTextCenter a {
     font-size: 12px !important;
   }
-  
+
   .footerAboutTextEnd {
     font-size: 8.5px !important;
   }
-  
+
   .footerPadding {
     padding-right: 22px !important;
     padding-left: 22px !important;
@@ -1853,17 +1853,17 @@ footer > p > a {
   .footerInstagramIcon {
     font-size: 13px !important;
   }
-  
+
   .footerTextCenter {
     font-size: 10px !important;
     padding-bottom: 5px !important;
   }
-  
+
   .footerTextCenter a {
     font-size: 10px !important;
     padding-bottom: 5px !important;
   }
-  
+
   .footerTextEnd {
     font-size: 8px !important;
   }
@@ -1871,19 +1871,19 @@ footer > p > a {
   .footerAboutInstagramIcon {
     font-size: 13 !important;
   }
-  
+
   .footerAboutTextCenter {
     font-size: 10px !important;
   }
-  
+
   .footerAboutTextCenter a {
     font-size: 10px !important;
   }
-  
+
   .footerAboutTextEnd {
     font-size: 8px !important;
   }
-  
+
   .footerPadding {
     padding-right: 15px !important;
     padding-left: 15px !important;
@@ -1894,39 +1894,39 @@ footer > p > a {
   .footerInstagramIcon {
     font-size: 13px !important;
   }
-  
+
   .footerTextCenter {
     font-size: 10px !important;
     padding-bottom: 5px !important;
   }
-  
+
   .footerTextCenter a {
     font-size: 10px !important;
     padding-bottom: 5px !important;
   }
-  
+
   .footerTextEnd {
     font-size: 8px !important;
     text-align: center !important;
   }
-  
+
   .footerAboutInstagramIcon {
     font-size: 10px !important;
   }
-  
+
   .footerAboutTextCenter {
     font-size: 8px !important;
   }
-  
+
   .footerAboutTextCenter a {
     font-size: 8px !important;
   }
-  
+
   .footerAboutTextEnd {
     font-size: 7px !important;
     text-align: center !important;
   }
-  
+
   .footerPadding {
     padding-right: 12px !important;
     padding-left: 12px !important;
@@ -1937,45 +1937,44 @@ footer > p > a {
   .footerInstagramIcon {
     font-size: 13px !important;
   }
-  
+
   .footerTextCenter {
     font-size: 10px !important;
     padding-bottom: 3px !important;
   }
-  
+
   .footerTextCenter a {
     font-size: 10px !important;
     padding-bottom: 3px !important;
   }
-  
+
   .footerTextEnd {
     font-size: 8px !important;
     text-align: center !important;
   }
-  
+
   .footerAboutInstagramIcon {
     font-size: 10px !important;
   }
-  
+
   .footerAboutTextCenter {
     font-size: 8px !important;
   }
-  
+
   .footerAboutTextCenter a {
     font-size: 8px !important;
   }
-  
+
   .footerAboutTextEnd {
     font-size: 7px !important;
     text-align: center !important;
   }
-  
+
   .footerPadding {
     padding-right: 12px !important;
     padding-left: 12px !important;
   }
 }
-
 
 /*Police and terms */
 
@@ -2004,12 +2003,12 @@ footer > p > a {
     font-size: 21px;
     margin-bottom: 13px;
   }
-  
+
   .pptHeader2 {
     font-size: 19px;
     margin-bottom: 10px;
   }
-  
+
   .pptText {
     font-size: 14px;
   }
@@ -2020,12 +2019,12 @@ footer > p > a {
     font-size: 18px;
     margin-bottom: 12px;
   }
-  
+
   .pptHeader2 {
     font-size: 16px;
     margin-bottom: 9px;
   }
-  
+
   .pptText {
     font-size: 12px;
   }
@@ -2036,12 +2035,12 @@ footer > p > a {
     font-size: 12px;
     margin-bottom: 7px;
   }
-  
+
   .pptHeader2 {
     font-size: 10px;
     margin-bottom: 5px;
   }
-  
+
   .pptText {
     font-size: 9px;
   }
@@ -2057,12 +2056,12 @@ footer > p > a {
     font-size: 12px;
     margin-bottom: 7px;
   }
-  
+
   .pptHeader2 {
     font-size: 10px;
     margin-bottom: 5px;
   }
-  
+
   .pptText {
     font-size: 9px;
   }
@@ -2078,12 +2077,12 @@ footer > p > a {
     font-size: 12px;
     margin-bottom: 7px;
   }
-  
+
   .pptHeader2 {
     font-size: 10px;
     margin-bottom: 5px;
   }
-  
+
   .pptText {
     font-size: 9px;
   }
