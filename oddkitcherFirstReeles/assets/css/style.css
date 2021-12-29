@@ -1718,10 +1718,6 @@ footer > p > a {
   margin-right: 13px;
 }
 
-.footerTextEnd:hover {
-  color: red;
-}
-
 .footerTextEnd a {
   color: white;
 }
