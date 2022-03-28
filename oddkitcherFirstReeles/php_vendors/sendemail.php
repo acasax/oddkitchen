@@ -20,15 +20,12 @@ $user_class = new USER();
         if ($recaptcha->score >= 0.5) {
             if (isset($_REQUEST['name']) && isset($_REQUEST['email']) && isset($_REQUEST['message'])) {
 
-                $email_to = "contact@theoddkitchen.com";
+                $email_to = " theoddkitchennyc@gmail.com";
                 $email_subject = "Message from website";
-
 
                 $name       = $_POST['name'];
                 $email      = $_POST['email'];
                 $message    = $_POST['message'];
-
-
 
                 function clean_string($string)
                 {
@@ -36,11 +33,10 @@ $user_class = new USER();
                     return str_replace($bad, "", $string);
                 }
 
-                $email_message = "Name: " . clean_string($name) . "\n";
-                $email_message .= "E-mail: " . clean_string($email) . "\n";
+                $email_message = "Name: " . clean_string($name) . "<br>";
+                $email_message .= "E-mail: " . clean_string($email) . "<br>";
 
-                //$email_message .= "Usluga: " . clean_string($service) . "\n";
-                $email_message .= "Message: " . clean_string($message) . "\n";
+                $email_message .= "Message: " . clean_string($message) . "<br>";
 
                 $email_message = "<div>" . $email_message . "</div>";
 

@@ -54,31 +54,44 @@ class USER {
             return true;
         }*/
 
-        $mail = new PHPMailer(true);
+/*         $mail = new PHPMailer();
+        $mail->SMTPDebug = 1;
         $mail->isSMTP();
-        $mail->Host = 'smtp.office365.com';
-        $mail->Port       = 587;
-        $mail->SMTPSecure = 'tls';
-        $mail->SMTPAuth   = true;
-        $mail->Username = "contact@theoddkitchen.com";
-        $mail->Password = "mousePad123!";
+        $mail->Host = 'smtp.gmail.com';
+        $mail->Port = 465;
+        $mail->AddAddress('theoddkitchennyc@gmail.com');
+        $mail->Username = "theoddkitchennyc@gmail.com";
+        $mail->Password = "theoddk2022";
         $mail->SetFrom($email, 'FromEmail');
-        $mail->addAddress($email, 'ToEmail');
-        $mail->SMTPDebug = 4; 
-        $mail->Mailer = "smtp";
+        $mail->AddReplyTo($email, 'ToEmail');
+        $mail->Subject = 'Mesage from site';
+        $mail->MsgHTML($message);
+        */
         //$mail->SMTPDebug  = 3;
         //$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
+       // $mail->IsHTML(true);
+        
+        //$mail->Body    = $message;
+
+        $mail = new PHPMailer(); // create a new object
+        $mail->IsSMTP(); // enable SMTP
+       //$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+        $mail->SMTPAuth = true; // authentication enabled
+        $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
+        $mail->Host = "smtp.gmail.com";
+        $mail->Port = 465; // or 587
         $mail->IsHTML(true);
-
+        $mail->Username = "theoddkitchennyc@gmail.com";
+        $mail->Password = "theoddk2022";
+        $mail->SetFrom($email);
         $mail->Subject = 'Mesage from site';
-        $mail->Body    = $message;
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+        $mail->Body = $message;
+        $mail->AddAddress("theoddkitchennyc@gmail.com");
 
-        if(!$mail->send()) {
-            echo 'Message could not be sent.';
-            echo 'Mailer Error: ' . $mail->ErrorInfo;
-        } else {
-            echo 'Message has been sent';
+        if(!$mail->send()){
+            return false;
+        }else{
+            return true;
         }
     }
 
