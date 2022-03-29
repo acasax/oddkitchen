@@ -33,12 +33,12 @@ $user_class = new USER();
                     return str_replace($bad, "", $string);
                 }
 
-                $email_message = "Name: " . clean_string($name) . "<br>";
-                $email_message .= "E-mail: " . clean_string($email) . "<br>";
+                $email_message = "Name: " . clean_string($name);
+                $email_message .= "E-mail: " . clean_string($email);
 
-                $email_message .= "Message: " . clean_string($message) . "<br>";
+                $email_message .= "Message: " . clean_string($message);
 
-                $email_message = "<div>" . $email_message . "</div>";
+                $email_message = $email_message;
 
                 $headers = 'From: ' . $email . "\r\n" .
                     'Reply-To: ' . $email . "\r\n" .

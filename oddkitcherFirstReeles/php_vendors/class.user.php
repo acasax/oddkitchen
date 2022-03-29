@@ -54,39 +54,27 @@ class USER {
             return true;
         }*/
 
-/*         $mail = new PHPMailer();
-        $mail->SMTPDebug = 1;
-        $mail->isSMTP();
+        $mail = new PHPMailer();
+        //$mail->IsSMTP();
+        //$mail->SMTPDebug  = 1;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = "tls";
         $mail->Host = 'smtp.gmail.com';
-        $mail->Port = 465;
+        $mail->Port = 587;
         $mail->AddAddress('theoddkitchennyc@gmail.com');
         $mail->Username = "theoddkitchennyc@gmail.com";
         $mail->Password = "theoddk2022";
-        $mail->SetFrom($email, 'FromEmail');
+        $mail->SetFrom('theoddkitchennyc@gmail.com', 'FromEmail');
         $mail->AddReplyTo($email, 'ToEmail');
         $mail->Subject = 'Mesage from site';
         $mail->MsgHTML($message);
-        */
+     
         //$mail->SMTPDebug  = 3;
         //$mail->Debugoutput = function($str, $level) {echo "debug level $level; message: $str";}; //$mail->Debugoutput = 'echo';
        // $mail->IsHTML(true);
-        
         //$mail->Body    = $message;
 
-        $mail = new PHPMailer(); // create a new object
-        $mail->IsSMTP(); // enable SMTP
-       //$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
-        $mail->SMTPAuth = true; // authentication enabled
-        $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-        $mail->Host = "smtp.gmail.com";
-        $mail->Port = 465; // or 587
-        $mail->IsHTML(true);
-        $mail->Username = "theoddkitchennyc@gmail.com";
-        $mail->Password = "theoddk2022";
-        $mail->SetFrom($email);
-        $mail->Subject = 'Mesage from site';
-        $mail->Body = $message;
-        $mail->AddAddress("theoddkitchennyc@gmail.com");
+
 
         if(!$mail->send()){
             return false;

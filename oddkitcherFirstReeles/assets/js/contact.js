@@ -57,6 +57,7 @@ $(document).ready(function() {
 
                         if (str === 'OK') {
                             str = objResp.data;
+                            $('#contactForm')[0].reset(); 
                             swal({
                                     title: "SUCCESS",
                                     text: str,
