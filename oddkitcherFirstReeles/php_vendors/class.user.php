@@ -56,7 +56,7 @@ class USER {
 
         $mail = new PHPMailer();
         //$mail->IsSMTP();
-        //$mail->SMTPDebug  = 1;
+       // $mail->SMTPDebug  = 1;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "tls";
         $mail->Host = 'smtp.gmail.com';
